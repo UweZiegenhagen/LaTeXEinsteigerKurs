@@ -1,15 +1,22 @@
-# LaTeX - Einsteigerkurs
+# Kapitel 1 des LaTeX - Einsteigerkurses
 
-Jedes Jahr halte ich mindestens einen Einsteigerkurs für LaTeX. In diesem git-Repository sammle ich Beispiele, die mit steigender Komplexität zeigen, wie man am besten mit LaTeX arbeitet.
+Jedes Jahr halte ich mindestens einen Einsteigerkurs für LaTeX. In diesem git-Repository sammle ich Beispiele, die mit steigender Komplexität zeigen, wie man am besten mit LaTeX arbeitet. In erster Linie werde ich sie selbst nutzen, bin aber für eine Kooperation offen. Fehlermeldungen und Verbesserungsvorschläge werden gern angenommen.
 
-# Historisches
+
+## Historisches
 
 * TeX wurde seit Ende der 1970er vom Stanford-Professor Donald Knuth entwickelt
 * Sein Ziel: "The Art of Computer Programming" qualitativ hochwertig setzen.
 * TeX ist recht "sperrig" im Umgang, daher entwickelte Leslie Lamport eine Sammlung von Makros, mit denen man TeX leichter bedienen konnte und nannte diese "LaTeX" (gesprochen "La-Tech" oder "Le-Tech", nicht "Latex")
 
+## Warum sollte ich LaTeX nutzen?
 
-# Bezug
+Ich bin da recht pragmatisch. Word hat in den letzten Jahren an Qualität sehr zugelegt, auch LibreOffice/OpenOffice taugen schon was. In diesen Programmen ist es aber recht einfach, etwas zu produzieren, was -- nach typografischen Gesichtspunkten -- schlecht aussieht. LaTeX im Gegensatz dazu macht es dem Nutzer recht schwer, richtig typografischen Mist zu produzieren. 
+
+LaTeX ist auch dazu gemacht, längere Dokumente effizient zu produzieren. Einige Beispiele füge ich später hier noch ein.
+
+
+## Bezug
 
 * Heute gibt es noch zwei TeX-Distributionen, die erwähnenswert sind:
 	* MikTeX: nur für Windows
@@ -26,7 +33,7 @@ Man erhält TeX Live:
 
 Für alles weitere nehmen wir an, dass eine LaTeX-Installation erfolgt ist, alternativ kann man auch bei ShareLaTeX oder Overleaf die Beispiele online ausprobieren.
 
-# Editoren
+## Editoren
 
 Unter Windows und Mac OS X enthält TeX Live TeXworks, einen aus meiner Sicht sehr guten Editor. Ich nutze ihn zusammen mit in Autohotkey erstellten Tastatur-Shortcuts, mehr dazu in meinem Blog. Man kann aber jeden anderen Editor nehmen, mit speziellen TeX-Editoren ist man aber schneller und es ist ein wenig komfortabler. Die einzig sinnvolle Bedingung ist aber, dass der Editor UTF-8 Unicode unterstützen sollte, da es sonst insbesondere beim Austausch mit anderen nur zu Problemen führt. Die folgende Liste ist nicht vollständig, die Reihenfolge stellt keine Wertung dar:
 
@@ -39,7 +46,7 @@ Unter Windows und Mac OS X enthält TeX Live TeXworks, einen aus meiner Sicht se
 * Eclipse mit TeXlipse
 * TeXniccenter
 
-# Mein erstes Dokument
+## Mein erstes Dokument
 
 Nimm den folgenden Code, speichere ihn in einer Datei mit der Endung .tex und übersetze ihn:
 
@@ -75,3 +82,5 @@ Jetzt zur Erklärung, was dieses Dokument macht:
 * Befehle können Parameter haben, wie zum Beispiel der `\textbf{}` Befehl, der den Text in geschweiften Klammern fett druckt.
 * die folgenden Zeilen definieren eine _itemize_ Umgebung, eine nicht nummerierte Aufzählung mit Bulletpoints.
 * `\end{document}` beendet das Dokument. Alles dahinter wird ignoriert.
+
+So, weiter geht es in der [nächsten Datei](Kapitel2.md).
