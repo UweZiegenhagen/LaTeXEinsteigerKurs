@@ -46,8 +46,8 @@ Nimm den folgenden Code, speicher ihn in einer Datei mit der Endung .tex und üb
 * mit dem entsprechenden Übersetzungsbutton im Editor
 * auf der Kommandozeile mit dem Befehl `pdflatex <dateiname>.tex`
 
-```
-\documentclass{article}
+```latex
+\documentclass[12pt]{article}
 
 \begin{document}
 
@@ -63,3 +63,6 @@ Hallo \LaTeX, ich bin ein \textbf{Text} in fett.
 
 ```
  
+Jetzt zur Erklärung, was dieses Dokument macht:
+
+* 
