@@ -16,7 +16,7 @@ Jedes Jahr halte ich mindestens einen Einsteigerkurs für LaTeX. In diesem git-R
 	* TeX Live (mit MacTeX): für alle möglichen Betriebssysteme
 
 
-Persönlich nutze ich TeX Live, da ich damit _ein_ einheitliches System für alle meine Rechner bekomme. Der Fokus dieses Kurses liegt daher auch auf TeX Live.
+Persönlich nutze ich TeX Live, da ich damit _ein_ einheitlichen Editor für alle meine Rechner bekomme. Der Fokus dieses Kurses liegt daher auch auf TeX Live.
 
 Man erhält TeX Live:
 
@@ -28,7 +28,7 @@ Für alles weitere nehmen wir an, dass eine LaTeX-Installation erfolgt ist, alte
 
 # Editoren
 
-Unter Windows und Mac OS X enthält TeX Live TeXworks, einen aus meiner Sicht recht brauchbaren Editor. Man kann aber jeden anderen Editor nehmen, mit speziellen TeX-Editoren ist man aber schneller und es ist ein wenig komfortabler. Die folgende Liste ist nicht vollständig, die Reihenfolge stellt keine Wertung dar:
+Unter Windows und Mac OS X enthält TeX Live TeXworks, einen aus meiner Sicht sehr guten Editor. Ich nutze ihn zusammen mit in Autohotkey erstellten Tastatur-Shortcuts, mehr dazu in meinem Blog. Man kann aber jeden anderen Editor nehmen, mit speziellen TeX-Editoren ist man aber schneller und es ist ein wenig komfortabler. Die einzig sinnvolle Bedingung ist aber, dass der Editor UTF-8 Unicode unterstützen sollte, da es sonst insbesondere beim Austausch mit anderen nur zu Problemen führt. Die folgende Liste ist nicht vollständig, die Reihenfolge stellt keine Wertung dar:
 
 * TeXworks
 * Kile
@@ -41,7 +41,7 @@ Unter Windows und Mac OS X enthält TeX Live TeXworks, einen aus meiner Sicht re
 
 # Mein erstes Dokument
 
-Nimm den folgenden Code, speicher ihn in einer Datei mit der Endung .tex und übersetze ihn:
+Nimm den folgenden Code, speichere ihn in einer Datei mit der Endung .tex und übersetze ihn:
 
 * mit dem entsprechenden Übersetzungsbutton im Editor
 * auf der Kommandozeile mit dem Befehl `pdflatex <dateiname>.tex`
@@ -62,7 +62,16 @@ Hallo \LaTeX, ich bin ein \textbf{Text} in fett.
 \end{document}
 
 ```
+
+Achtung: Wenn dieses Dokument beim Übersetzen Fehler produziert, dann ist was faul. Such jemanden, der LaTeX-Erfahrung hat oder frage nett in einem LaTeX-Forum.
  
 Jetzt zur Erklärung, was dieses Dokument macht:
 
-* 
+* Die `\documentclass` legt fest, was wir eigentlich schreiben wollen. Jede Dokumentenklasse ist letztlich nichts anderes als eine Vorlage. Und da sich ein kurzer Artikel von fünf Seiten und ein 2000-Seiten-Buch voneinander unterscheiden, gibt es da unterschiedliche.
+* [12pt] ist ein optionaler Parameter und legt die Höhe der Grundschrift fest, also dem Fließtext. Alle weiteren Größen, von Überschriften bis zu den Fußnoten, wird von dieser Schriftgröße abgeleitet
+* Den Teil vor `\begin{document}` nennt man Präambel. Hier kommen alle Definitionen und ähnliches rein, die das Aussehen unseres Dokuments bestimmen.
+* Die Kombination aus `\begin{document}` und `\end{document}` ist dabei eine _Umgebung_, den Begriff werden wir öfter hören.
+* `\LaTeX` ist ein _Befehl_, auch dieser Begriff wird öfter fallen.
+* Befehle können Parameter haben, wie zum Beispiel der `\textbf{}` Befehl, der den Text in geschweiften Klammern fett druckt.
+* die folgenden Zeilen definieren eine _itemize_ Umgebung, eine nicht nummerierte Aufzählung mit Bulletpoints.
+* `\end{document}` beendet das Dokument. Alles dahinter wird ignoriert.
