@@ -93,4 +93,4 @@ Hallo Welt!
 
 Aufgabe: Ersetzt mal testweise die `scrartcl` Dokumentenklasse durch `scrreprt` oder `scrbook`! Was verändert sich?
 
-Weiter geht es im [nächsten Kapitel](Kapitel03.md)
+Weiter geht es im [nächsten Kapitel](Kapitel3.md)
