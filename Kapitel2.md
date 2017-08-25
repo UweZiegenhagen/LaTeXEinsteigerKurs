@@ -8,7 +8,7 @@ Im ersten Kapitel hatten wir ein Beispiel gesehen, das die Dokumentenklasse `art
 
 Ganz klar zu empfehlen sind die Klassen aus dem KOMA-Script Paket von Markus Kohm. Sie ersetzen die ursprünglichen Klassen perfekt und produzieren wohlfeile Dokumente. Es gilt also:
 
-* Lass article, report und book weg, wenn es keinen spezifischen Grund dafür gibt.
+* Lass article, report und book weg, wenn es keinen _spezifischen_ Grund dafür gibt.
 * Vergiss am besten, dass es sie gibt.
 * Ersetze:
 	* `article` durch `scrartcl`
@@ -17,14 +17,80 @@ Ganz klar zu empfehlen sind die Klassen aus dem KOMA-Script Paket von Markus Koh
 
 ## Die richtige TeX-Engine
 
-Es gibt mehr als einen Weg, ein TeX-Dokument zu übersetzen. Im ersten Kapitel hatten wir noch `pdflatex` benutzt, es gibt aber Alternativen.
+Es gibt mehr als einen Weg, ein TeX-Dokument zu übersetzen. Im ersten Kapitel hatten wir ja `pdflatex` benutzt, es gibt aber Alternativen. Hier eine kurze Übersicht.
 
 * **pdflatex**: die schnellste Engine, sehr ausgereift. Kann aber nicht mit OpenType-Fonts umgehen, die Integration von Schriften ist sehr komplex und wird keinem Anfänger empfohlen
 * **xelatex**: kann mit den Systemschriften umgehen, ist aber m.E. nicht mehr aktiv in der Entwicklung
 * **lualatex**: aktiv in der Entwicklung, die langsamste der Engines. Wie xelatex kann luaLaTeX mit Systemfonts im OTF-Format umgehen. Ein Hauptvorteil ist die integrierte Lua-Engine, die vieles in der Arbeit mit dem TeX-Kern leichter macht.
 
-Welche TeX-Engine solltet ihr nehmen? Hängt davon ab, aber mit `pdflatex` macht man als Anfänger nichts falsch. Im folgenden werden wir uns daher auf `pdflatex` konzentrieren. Gegebenenfalls werde ich wichtige Punkte erwähnen, die in xelatex/lualatex anders sind.
+Hinweis: alle drei gibt es auch ohne das "la" im Namen, also als `pdftex`, `xetex` und `luatex`. Diese drei Varianten verstehen nur pures TeX, mit LaTeX können sie nichts anfangen und werfen schon beim "\documentclass" Fehlermeldungen.
+
+Welche TeX-Engine solltet ihr nehmen? Hängt davon ab, aber mit `pdflatex` macht man als Anfänger nichts falsch. Wenn man Systemschriften nutzen möchte oder muss, kommt man um xelatex üblicherweise nicht herum, wenn es um weitergehende Programmierung geht, ist sicherlich `lualatex` Mittel der Wahl.
+
+
+Da dies hier ein Anfängertutorial sein soll, werden wir uns im folgenden auf `pdflatex` konzentrieren. Gegebenenfalls werde ich wichtige Punkte erwähnen, die in xelatex/lualatex anders sind.
 
 ## Unser erstes 'richtiges' Dokument
 
-Im folgenden bauen wir Schritt für Schritt ein komplettes Dokument auf:
+Im folgenden bauen wir Schritt für Schritt ein komplettes Dokument auf.
+
+Beginnen wir mit dem folgenden Schnipsel, der die KOMA-Klasse `scrartcl` mit der Grundschrifthöhe 12pt nutzt:
+
+**Dateiname.tex**
+```
+\documentclass[12pt]{scrartcl}
+
+\begin{document}
+
+Hallo Welt!
+
+\end{document}
+
+```
+
+Als nächstes teilen wir LaTeX mit, dass unsere Datei in UTF-8 kodiert ist, wir mit westeuropäischen Schriften arbeiten und deutsche Silbentrennung haben möchten.
+
+**Dateiname.tex**
+```
+\documentclass[12pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+
+\begin{document}
+
+Hallo Welt!
+
+\end{document}
+```
+
+
+Dies ist das Grundgerüst für jedes `pdflatex`-Dokument, diese paar Zeilen kann man sich merken oder abspeichern. 
+
+`babel` sorgt nicht nur für die richtige Silbentrennung, es deutscht auch das Datum ein und die Überschriften für die verschiedenen Inhaltsverzeichnisse.
+
+Geben wir dem Dokument als nächstes den Autor und Titel mit und lassen diesen Titel setzen:
+
+**Dateiname.tex**
+```
+\documentclass[12pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+
+\author{Max Mustermann}
+\title{Mein erstes Dokument}
+
+\begin{document}
+\maketitle
+
+Hallo Welt!
+
+\end{document}
+```
+
+Aufgabe: Ersetzt mal testweise die `scrartcl` Dokumentenklasse durch `scrreprt` oder `scrbook`! Was verändert sich?
+
+Weiter geht es im nächsten [Kapitel](Kapitel03.md)
