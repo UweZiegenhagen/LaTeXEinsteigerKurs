@@ -11,9 +11,9 @@ Jedes Jahr halte ich mindestens einen Einsteigerkurs für LaTeX. In diesem git-R
 
 ## Warum sollte ich LaTeX nutzen?
 
-Ich bin da recht pragmatisch. Word hat in den letzten Jahren an Qualität sehr zugelegt, auch LibreOffice/OpenOffice taugen schon was. In diesen Programmen ist es aber recht einfach, etwas zu produzieren, was -- nach typografischen Gesichtspunkten -- schlecht aussieht. LaTeX im Gegensatz dazu macht es dem Nutzer recht schwer, richtig typografischen Mist zu produzieren. 
+Ich bin da recht pragmatisch. Word hat in den letzten Jahren an Qualität sehr zugelegt, auch LibreOffice/OpenOffice taugen für viele Anwendungszwecke schon was. In diesen Programmen ist es aber recht einfach, etwas zu produzieren, was -- nach typografischen und ästetischen Gesichtspunkten -- schlecht aussieht. LaTeX im Gegensatz dazu macht es dem Nutzer recht schwer, richtig typografischen Mist zu produzieren. 
 
-LaTeX ist auch dazu gemacht, längere Dokumente effizient zu produzieren. Einige Beispiele füge ich später hier noch ein.
+LaTeX ist auch dazu gemacht, längere Dokumente effizient zu produzieren, wobei ich nicht von Dokumenten mit 20 oder 30 Seiten spreche. Die lassen sich noch mit einem Schreibprogramm erstellen, da lohnt sich der Einarbeitungsaufwand in LaTeX nicht in jedem Fall. Hier geht es eher um Doktorarbeiten, Masterarbeiten oder Bücher. Die Fähigkeiten von LaTeX, Textsatz effizient zu gestalten, helfen einem dort maßgeblich, Zeit zu sparen.
 
 
 ## Bezug
