@@ -70,7 +70,7 @@ Dies ist das Grundgerüst für jedes `pdflatex`-Dokument, diese paar Zeilen kann
 
 `babel` sorgt nicht nur für die richtige Silbentrennung, es deutscht auch das Datum ein und die Überschriften für die verschiedenen Inhaltsverzeichnisse.
 
-Geben wir dem Dokument als nächstes den Autor und Titel mit und lassen diesen Titel setzen:
+Geben wir dem Dokument als nächstes den Autor und Titel mit und lassen diesen Titel dann mit `\maketitle` setzen:
 
 **Dateiname.tex**
 ```latex
@@ -92,5 +92,7 @@ Hallo Welt!
 ```
 
 Aufgabe: Ersetzt mal testweise die `scrartcl` Dokumentenklasse durch `scrreprt` oder `scrbook`! Was verändert sich?
+
+Ein Hinweis zur Titelseite: individuelle Titelseiten lassen sich mit der `titlepage`-Umgebung auch erstellen. Das ist aber recht komplex und wird daher erst in einem späteren Kapitel behandelt.
 
 Weiter geht es im [nächsten Kapitel](Kapitel3.md)
