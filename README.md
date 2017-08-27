@@ -4,6 +4,7 @@
 * [Dokumentenklasse und Auswahl der LaTeX-Engine](Kapitel2.md)
 * [Gliederungsbefehle und Inhaltsverzeichnis](Kapitel3.md)
 * [Aufzählungen und Textauszeichnung](Kapitel4.md)
+* [Bilder einbinden](Kapitel5.md)
 
 # Kapitel 1: Einleitung
 

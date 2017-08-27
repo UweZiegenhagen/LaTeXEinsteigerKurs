@@ -106,4 +106,4 @@ Dies ist ein \textbf{\textit{fett-kursives}} Wort.
 Für Unterstreichungen gilt: sie sind böse und sollten nicht genutzt werden, schon gar nicht im Zusammenhang mit Überschriften! Mehr dazu unter [http://www.typovia.at/index.php/typografie/grundlagen/goldene-regel-der-typografie](http://www.typovia.at/index.php/typografie/grundlagen/goldene-regel-der-typografie)
 
 
-Weiter geht es im [nächsten Kapitel](Kapitel5.md) mit Aufzählungen und Textauszeichnungen.
+Weiter geht es im [nächsten Kapitel](Kapitel5.md) mit dem Einbinden von Bildern.
