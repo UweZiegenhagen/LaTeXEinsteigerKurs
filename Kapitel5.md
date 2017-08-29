@@ -106,4 +106,4 @@ Hinweis: bei Verwendung einer KOMA-Script-Klasse (was ich jedem nur empfehlen ka
 
 
 
-Weiter geht es im [nächsten Kapitel](Kapitel6.md) mit 
+Weiter geht es im [nächsten Kapitel](Kapitel6.md) mit dem Satz von Tabellen. 

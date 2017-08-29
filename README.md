@@ -10,25 +10,27 @@
 
 Jedes Jahr halte ich mindestens einen Einsteigerkurs für LaTeX. In diesem git-Repository sammle ich Beispiele, die mit steigender Komplexität zeigen, wie man am besten mit LaTeX arbeitet. In erster Linie werde ich sie selbst nutzen, bin aber für eine Kooperation offen. Fehlermeldungen und Verbesserungsvorschläge werden gern angenommen.
 
-Vom Anspruch her versuche ich, vor allem auf Standard-LaTeX zu setzen. Wo es mir sinnvoll erscheint, erwähne ich die Zusatzpakete und zeige Beispiele.
+Vom Anspruch her versuche ich, vor allem auf Standard-LaTeX zu setzen. Wo es mir sinnvoll erscheint, erwähne ich aber Zusatzpakete und stelle Beispiele bereit.
 
 
 ## Historisches
 
 * TeX wurde seit Ende der 1970er vom Stanford-Professor Donald Knuth entwickelt
-* Sein Ziel: "The Art of Computer Programming" qualitativ hochwertig setzen.
+* Sein Ziel: die Neu-Auflage von "The Art of Computer Programming" qualitativ hochwertig setzen.
 * TeX ist recht "sperrig" im Umgang, daher entwickelte Leslie Lamport eine Sammlung von Makros, mit denen man TeX leichter bedienen konnte und nannte diese "LaTeX" (gesprochen "La-Tech" oder "Le-Tech", nicht "Latex")
 
 ## Warum sollte ich LaTeX nutzen?
 
-Ich bin da recht pragmatisch. Wenn Du es nicht nutzen willst, dann mach es nicht. Word hat in den letzten Jahren qualitativ zugelegt, auch LibreOffice/OpenOffice sind für viele Anwendungszwecke schon benutzbar. In diesen Programmen ist es aber recht einfach, etwas zu produzieren, was -- nach typografischen und ästetischen Gesichtspunkten -- schlecht aussieht. LaTeX im Gegensatz dazu macht es dem Nutzer recht schwer, richtig typografischen Mist zu produzieren.
+Ich bin da recht pragmatisch. Wenn Du es nicht nutzen willst, dann mach es nicht. Word hat in den letzten Jahren qualitativ zugelegt, auch LibreOffice/OpenOffice sind für viele Anwendungszwecke schon benutzbar. In diesen Programmen ist es aber recht einfach, etwas zu produzieren, was -- nach typografischen und ästhetischen Gesichtspunkten -- schlecht aussieht. LaTeX im Gegensatz dazu macht es dem Nutzer üblicherweise schwer, richtig typografischen Mist zu produzieren.
 
-LaTeX ist auch dazu gemacht, längere Dokumente effizient zu produzieren, wobei ich damit Dokumente meine, die jenseits der 50 Seiten sind. Die Fähigkeiten von LaTeX, Textsatz effizient zu gestalten, helfen einem dort maßgeblich, Zeit zu sparen.
+LaTeX ist auch dazu gemacht, längere Dokumente effizient zu produzieren, wobei man sagen kann: längere Dokument haben mehr als 50 Seiten. Die Fähigkeiten von LaTeX, Textsatz effizient zu gestalten, helfen einem dann maßgeblich, Zeit zu sparen.
 
 Hier einige Beispiele aus Projekten, an denen ich TeXnisch beteiligt war
 
 * Neben der Dissertation galt es, einen Werkskatalog anzufertigen. Diese wurde dann als PDF per DVD beigelegt. Im Werkskatalog wurde in der mehrzeiligen Bildunterschrift auf die Seite der Dissertation verlinkt, in der das Werk besprochen wurde. In der Dissertation wiederum wurde auf die Seite im Werkskatalog verwiesen (verlinkt), auf der das Bild abgebildet war. Alles war dynamisch, bei Anpassungen im Text wurde einfach alles nochmal übersetzt.
 * Viele Bilder verwalten: In obigem Werk waren hunderte Bilder inkludiert. Diese manuell in das Dokument einzufügen wäre zeitlich nicht machbar und sehr fehleranfällig gewesen. Also wurden die einzelnen Punkte der Unterschrift in Excel-Spalten nach und nach ergänzt, dann wurde mit Hilfe von Excel-Formeln der `\includegraphics` Befehl für LaTeX zusammengebaut. Alle so erzeugten Befehle wurden dann 1:1 nach LaTeX kopiert.
+
+Ich nehme LaTeX für alle Dokumente, die ordentlich aussehen sollen, auch und insbesondere für Briefe. Dazu gibt es später dann ein eigenes Kapitel.
 
 ## Bezug
 
