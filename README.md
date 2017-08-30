@@ -21,11 +21,11 @@ Vom Anspruch her versuche ich, vor allem auf Standard-LaTeX zu setzen. Wo es mir
 
 ## Warum sollte ich LaTeX nutzen?
 
-Ich bin da recht pragmatisch. Wenn Du es nicht nutzen willst, dann mach es nicht. Word hat in den letzten Jahren qualitativ zugelegt, auch LibreOffice/OpenOffice sind für viele Anwendungszwecke schon benutzbar. In diesen Programmen ist es aber recht einfach, etwas zu produzieren, was -- nach typografischen und ästhetischen Gesichtspunkten -- schlecht aussieht. LaTeX im Gegensatz dazu macht es dem Nutzer üblicherweise schwer, richtig typografischen Mist zu produzieren.
+Ich bin da recht pragmatisch. Wenn Du LaTeX nicht nutzen willst, dann mach es nicht. Word hat in den letzten Jahren qualitativ zugelegt, auch LibreOffice/OpenOffice sind für viele Anwendungszwecke schon benutzbar. In diesen Programmen ist es aber immer noch recht einfach, etwas zu produzieren, was -- nach typografischen und damit ästhetischen Gesichtspunkten -- schlecht aussieht. LaTeX im Gegensatz dazu macht es dem Nutzer üblicherweise schwer, richtig typografischen Mist zu produzieren.
 
-LaTeX ist auch dazu gemacht, längere Dokumente effizient zu produzieren, wobei man sagen kann: längere Dokument haben mehr als 50 Seiten. Die Fähigkeiten von LaTeX, Textsatz effizient zu gestalten, helfen einem dann maßgeblich, Zeit zu sparen.
+LaTeX ist auch dazu gemacht, längere Dokumente effizient zu produzieren, wobei man sagen kann: längere Dokumente haben mehr als 50 Seiten. Die Fähigkeiten von LaTeX, Textsatz effizient zu gestalten, helfen einem dann maßgeblich, Zeit zu sparen.
 
-Hier einige Beispiele aus Projekten, an denen ich TeXnisch beteiligt war
+Hier einige Beispiele aus Projekten, an denen ich TeXnisch beteiligt war:
 
 * Neben der Dissertation galt es, einen Werkskatalog anzufertigen. Diese wurde dann als PDF per DVD beigelegt. Im Werkskatalog wurde in der mehrzeiligen Bildunterschrift auf die Seite der Dissertation verlinkt, in der das Werk besprochen wurde. In der Dissertation wiederum wurde auf die Seite im Werkskatalog verwiesen (verlinkt), auf der das Bild abgebildet war. Alles war dynamisch, bei Anpassungen im Text wurde einfach alles nochmal übersetzt.
 * Viele Bilder verwalten: In obigem Werk waren hunderte Bilder inkludiert. Diese manuell in das Dokument einzufügen wäre zeitlich nicht machbar und sehr fehleranfällig gewesen. Also wurden die einzelnen Punkte der Unterschrift in Excel-Spalten nach und nach ergänzt, dann wurde mit Hilfe von Excel-Formeln der `\includegraphics` Befehl für LaTeX zusammengebaut. Alle so erzeugten Befehle wurden dann 1:1 nach LaTeX kopiert.
