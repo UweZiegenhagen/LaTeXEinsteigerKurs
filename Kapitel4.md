@@ -6,12 +6,12 @@
 
 Schauen wir uns in diesem Kapitel einmal an, wie man verschiedene Aufzählungen setzt.
 
-Das folgende Beispiel zeigt, wie man die Standard-Aufzählungen in LaTeX nutzen kann. Man kann die Umgebungen auch verschachteln, siehe dazu das darauffolgende Beispiel
+Das folgende Beispiel zeigt, wie man die Standard-Aufzählungen in LaTeX nutzen kann. 
 
-**dateiname.tex**
+**document-05.tex**
 
 ```latex
-\documentclass[12pt]{scrartcl}
+\documentclass[12pt,ngerman]{scrartcl}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -40,10 +40,12 @@ Das folgende Beispiel zeigt, wie man die Standard-Aufzählungen in LaTeX nutzen 
 \end{document}
 ```
 
-**dateiname.tex**
+Man kann die Umgebungen auch verschachteln, siehe dazu das folgende Beispiel:
+
+**document-06.tex**
 
 ```latex
-\documentclass[12pt]{scrartcl}
+\documentclass[12pt,ngerman]{scrartcl}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -80,9 +82,18 @@ Das folgende Beispiel zeigt, wie man die Standard-Aufzählungen in LaTeX nutzen 
 
 ## Textauszeichnung
 
+Für die Auszeichnung von Texten gibt es die folgenden Befehle:
+
+* `\textbf{Text}` für fettgedruckt (boldface)
+* `\textit{Text}` für kursiv (italic)
+* `\textsl{Text}` für geneigt (slanted)
+
+Je nachdem, welche Schnitte die genutzte Schriftart unterstützt, sind auch entsprechende Kombinationen dieser Befehle nutzbar.
+
+**document-07.tex**
 
 ```latex
-\documentclass[12pt]{scrartcl}
+\documentclass[12pt,ngerman]{scrartcl}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -97,8 +108,6 @@ Dies ist ein \textit{kursives} Wort.
 Dies ist ein \textsl{geneigtes} Wort, also eine falsche Kursive.
 
 Dies ist ein \textbf{\textit{fett-kursives}} Wort.
-
-\end{description}
 
 \end{document}
 ```

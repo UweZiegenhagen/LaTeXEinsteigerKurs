@@ -69,6 +69,8 @@ Nimm den folgenden Code, speichere ihn in einer Datei mit der Endung .tex und ü
 * mit dem entsprechenden Übersetzungsbutton im Editor
 * auf der Kommandozeile mit dem Befehl `pdflatex <dateiname>.tex`
 
+
+**code/document-00.tex**
 ```latex
 \documentclass[12pt]{article}
 
@@ -83,7 +85,6 @@ Hallo \LaTeX, ich bin ein \textbf{Text} in fett.
 \end{itemize}
 	
 \end{document}
-
 ```
 
 Achtung: Wenn dieses Dokument beim Übersetzen Fehler produziert, dann ist was faul. Such jemanden, der LaTeX-Erfahrung hat oder frage nett in einem LaTeX-Forum.

@@ -36,7 +36,7 @@ Im folgenden bauen wir Schritt für Schritt ein komplettes Dokument auf.
 
 Beginnen wir mit dem folgenden Schnipsel, der die KOMA-Klasse `scrartcl` mit der Grundschrifthöhe 12pt nutzt:
 
-**Dateiname.tex**
+**document-01.tex**
 ```latex
 \documentclass[12pt]{scrartcl}
 
@@ -50,7 +50,7 @@ Hallo Welt!
 
 Als nächstes teilen wir LaTeX mit, dass unsere Datei in UTF-8 kodiert ist, wir mit westeuropäischen Schriften arbeiten und deutsche Silbentrennung haben möchten.
 
-**Dateiname.tex**
+**document-02.tex**
 ```latex
 \documentclass[12pt]{scrartcl}
 
@@ -72,7 +72,7 @@ Dies ist das Grundgerüst für jedes `pdflatex`-Dokument, diese paar Zeilen kann
 
 Geben wir dem Dokument als nächstes den Autor und Titel mit und lassen diesen Titel dann mit `\maketitle` setzen:
 
-**Dateiname.tex**
+**document-03.tex**
 ```latex
 \documentclass[12pt]{scrartcl}
 
