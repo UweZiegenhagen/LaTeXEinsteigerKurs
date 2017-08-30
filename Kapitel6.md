@@ -7,7 +7,7 @@
 * Tabellen können sehr komplex werden, hier nur die Grundlagen
 * Von Herbert Voß gibt es ein eigenes Buch zu diesem Thema, das ich -- wie alle Bücher aus Lehmanns Dante-Edition -- empfehlen kann.
 
-## Meine erste Tabelle
+## Die erste Tabelle
 
 * Für Tabellen nutzt man die `tabular` Umgebung
 * Es gibt vier grundsätzliche Spaltentypen:
@@ -17,11 +17,15 @@
 	* **p{Breite}** für eine Spalte mit _n_ Zentimetern Breite, die automatisch umgebrochen wird
 * Zeilen beendet man mit `\\`
 * Zellen trennt man voneinander mit `&`
-* Vertikale Linien könnte man mit `|` zwischen den Spalten setzen, aber vertikale Linien sind typografisch böse und schlecht, sollten daher nicht eingesetzt werden.
+* * Vertikale Linien könnte man mit `|` zwischen den Spalten setzen, aber vertikale Linien sind typografisch böse und schlecht, sollten daher nicht eingesetzt werden.
+* Horizontale Linien setzt man mit `\hline`
 
+Hier eine Tabelle _mit_ vertikalen Linien, um mal ein schlechtes Beispiel zu zeigen
+
+**code/document-11.tex**
 
 ```latex
-\documentclass[12pt]{scrartcl}
+\documentclass[12pt,ngerman]{scrartcl}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -29,9 +33,9 @@
 
 \begin{document}
 
-\begin{tabular}{lrcp{5cm}}
-linksbündig & rechtsbündig & zentriert & linksbündig mit automatischem Umbruch \\
-links & rechts & zentrierte Spalte & linksbündig mit Umbruch \\
+\begin{tabular}{|l|r|c|p{5cm}|} \hline
+linksbündig & rechtsbündig & zentriert & linksbündig mit automatischem Umbruch \\ \hline
+links & rechts & zentrierte Spalte & linksbündig mit Umbruch \\ \hline
 \end{tabular}
 
 \end{document}

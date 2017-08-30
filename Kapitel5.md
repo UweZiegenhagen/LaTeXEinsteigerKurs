@@ -11,10 +11,12 @@
 
 ## Mein erstes Bild
 
-Annahme: Im selben Verzeichnis wie die LaTeX-Datei liegt auch das Bild `hallowelt.jpg`.
+Annahme: Im selben Verzeichnis wie die LaTeX-Datei liegt auch das Bild `hallowelt.jpg`. Hinweis: Ist das Bild zu groß für die Seite, dann legt LaTeX es schon mal auf die Folgeseite. Durch die Skalierung wird das aber automatisch gefixt.
+
+**code/document-08.tex**
 
 ```latex
-\documentclass[12pt]{scrartcl}
+\documentclass[12pt,ngerman]{scrartcl}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -32,10 +34,12 @@ Annahme: Im selben Verzeichnis wie die LaTeX-Datei liegt auch das Bild `hallowel
 
 ## Maße anpassen
 
-Der  `\includegraphics` Befehl hat diverse Optionen zur Transformation der Bilder. Ich nutze persönlich nur die `width`-Option, um die Breite des Bildes anzupassen. Dies kann in absoluten Maßen geschehen oder relativ wie der halben Textbreite. Eine zusätzliche Höhe muss nicht angegeben werden, LaTeX skaliert diese entsprechend des Seitenverhältnisses. Im folgenden Beispiel sind beide Versionen gezeigt, gleichzeitig werden beide Bilder zentriert.
+Der  `\includegraphics` Befehl hat diverse Optionen zur Transformation der Bilder. Ich nutze persönlich nur die `width`-Option, um die Breite des Bildes anzupassen. Dies kann in absoluten Maßen geschehen oder relativ wie der halben Textbreite. Eine zusätzliche Höhe muss nicht angegeben werden, LaTeX skaliert diese entsprechend des Seitenverhältnisses. Im folgenden Beispiel sind beide Versionen gezeigt, gleichzeitig werden die Bilder zentriert.
+
+**code/document-09.tex**
 
 ```latex
-\documentclass[12pt]{scrartcl}
+\documentclass[12pt,ngerman]{scrartcl}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -47,13 +51,21 @@ Der  `\includegraphics` Befehl hat diverse Optionen zur Transformation der Bilde
 \begin{document}
 
 \begin{center}
-\includegraphics[width=4cm]{dateiname.jpg}
+\includegraphics[width=4cm]{hallowelt.jpg}
 \end{center}
 
 
+% halbe Textbreite
 \begin{center}
-\includegraphics[width=0.5\textwidth]{dateiname.jpg}
+\includegraphics[width=0.5\textwidth]{hallowelt.jpg}
 \end{center}
+
+
+% volle Textbreite
+\begin{center}
+\includegraphics[width=\textwidth]{hallowelt.jpg}
+\end{center}
+
 
 \end{document}
 ```
@@ -74,8 +86,10 @@ Wenn LaTeX aber meint, dass an dieser Stelle es nicht passt, dann werden diese O
 
 Als nächstes ein vollständiges Beispiel. Der  `label`-Befehl setzt einen Anker an das Bild, auf dieses kann dann mittels `\ref{fig:hallo}` verwiesen werden. Auch hier braucht LaTeX zwei Compiler-Läufe, um a) die Referenzen und b) Einträge im Abbildungsverzeichnis korrekt zu setzen.
 
+**code/document-10.tex**
+
 ```latex
-\documentclass[12pt]{scrartcl}
+\documentclass[12pt,ngerman]{scrartcl}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{babel}
@@ -86,12 +100,12 @@ Als nächstes ein vollständiges Beispiel. Der  `label`-Befehl setzt einen Anker
 
 \listoffigures
 
+\begin{figure}[b]
 \begin{center}
-\begin{figure}
-\includegraphics[width=4cm]{dateiname.jpg}
+\includegraphics[width=4cm]{hallowelt.jpg}
 \caption{Hallo, ich bin ein Bild}\label{fig:hallo}
-\end{figure}
 \end{center}
+\end{figure}
 
 Siehe Abbildung \ref{fig:hallo} auf Seite \pageref{fig:hallo}.
 
@@ -103,7 +117,5 @@ Siehe Abbildung \ref{fig:hallo} auf Seite \pageref{fig:hallo}.
 Es gibt einen Trick, um Abbildungen, die nicht gleiten, in das Inhaltsverzeichnis zu bekommen. Dieser besteht darin, den Befehl `\captionof` zu nutzen, der die Gleitumgebung umgeht. 
 
 Hinweis: bei Verwendung einer KOMA-Script-Klasse (was ich jedem nur empfehlen kann) oder des `caption` Pakets wird das Paket `capt-of` nicht benötigt, da diese die Anweisung `\captionof` bereits intern selbst zur Verfügung stellen. 
-
-
 
 Weiter geht es im [nächsten Kapitel](Kapitel6.md) mit dem Satz von Tabellen. 
