@@ -1,0 +1,22 @@
+\documentclass[12pt,ngerman]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+
+\begin{document}
+
+\listoftables
+
+\begin{center}
+\begin{table}[b]
+\caption{Ich bin eine fließende Tabelle}\label{tab:ersteTabelle}
+\begin{tabular}{lrcp{5cm}}
+linksbündig & rechtsbündig & zentriert & linksbündig mit automatischem Umbruch \\
+links & rechts & zentrierte Spalte & linksbündig mit Umbruch \\
+\end{tabular}
+\end{table}
+\end{center}
+
+Siehe Tabelle \ref{tab:ersteTabelle} auf Seite \pageref{tab:ersteTabelle}.
+
+\end{document}

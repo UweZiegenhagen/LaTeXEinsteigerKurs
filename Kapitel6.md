@@ -53,19 +53,20 @@ Wie bei Bildern kann man der entsprechenden Gleitumgebung noch die Option für d
 
 Hier nun ein vollständiges Beispiel mit `\listoftables`
 
+**code/document-12.tex**
+
 ```latex
-\documentclass[12pt]{scrartcl}
+\documentclass[12pt,ngerman]{scrartcl}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{babel}
-
 
 \begin{document}
 
 \listoftables
 
 \begin{center}
-\begin{table}
+\begin{table}[b]
 \caption{Ich bin eine fließende Tabelle}\label{tab:ersteTabelle}
 \begin{tabular}{lrcp{5cm}}
 linksbündig & rechtsbündig & zentriert & linksbündig mit automatischem Umbruch \\
@@ -79,9 +80,9 @@ Siehe Tabelle \ref{tab:ersteTabelle} auf Seite \pageref{tab:ersteTabelle}.
 \end{document}
 ```
 
-## Nicht-gleitende Bilder im Abbildungsverzeichnis
+## Nicht-gleitende Tabellen im Tabellenverzeichnis
 
-Es gibt einen Trick, um Abbildungen, die nicht gleiten, in das Inhaltsverzeichnis zu bekommen. Dieser besteht darin, den Befehl `\captionof` zu nutzen, der die Gleitumgebung umgeht. 
+Wie bei Abbildungen gibt es auch den Trick, nicht gleitende Tabellen, in das Inhaltsverzeichnis zu bekommen. Dieser besteht darin, den Befehl `\captionof` zu nutzen, der die Gleitumgebung umgeht. 
 
 Hinweis: bei Verwendung einer KOMA-Script-Klasse (was ich jedem nur empfehlen kann) oder des `caption` Pakets wird das Paket `capt-of` nicht benötigt, da diese die Anweisung `\captionof` bereits intern selbst zur Verfügung stellen. 
 
