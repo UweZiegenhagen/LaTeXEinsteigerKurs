@@ -30,7 +30,7 @@ Hier einige Beispiele aus Projekten, an denen ich TeXnisch beteiligt war:
 * Neben der Dissertation galt es, einen Werkskatalog anzufertigen. Diese wurde dann als PDF per DVD beigelegt. Im Werkskatalog wurde in der mehrzeiligen Bildunterschrift auf die Seite der Dissertation verlinkt, in der das Werk besprochen wurde. In der Dissertation wiederum wurde auf die Seite im Werkskatalog verwiesen (verlinkt), auf der das Bild abgebildet war. Alles war dynamisch, bei Anpassungen im Text wurde einfach alles nochmal übersetzt.
 * Viele Bilder verwalten: In obigem Werk waren hunderte Bilder inkludiert. Diese manuell in das Dokument einzufügen wäre zeitlich nicht machbar und sehr fehleranfällig gewesen. Also wurden die einzelnen Punkte der Unterschrift in Excel-Spalten nach und nach ergänzt, dann wurde mit Hilfe von Excel-Formeln der `\includegraphics` Befehl für LaTeX zusammengebaut. Alle so erzeugten Befehle wurden dann 1:1 nach LaTeX kopiert.
 
-Ich nehme LaTeX für alle Dokumente, die ordentlich aussehen sollen, auch und insbesondere für Briefe. Dazu gibt es später dann ein eigenes Kapitel.
+Ich nehme LaTeX für alle Dokumente, die ordentlich aussehen sollen, auch und insbesondere für Briefe. Dazu aber später in einem eigenen Kapitel mehr.
 
 ## Bezug
 
