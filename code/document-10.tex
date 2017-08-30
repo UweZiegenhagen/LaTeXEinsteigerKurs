@@ -1,0 +1,21 @@
+\documentclass[12pt,ngerman]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+
+\usepackage{graphicx}
+
+\begin{document}
+
+\listoffigures
+
+\begin{figure}[b]
+\begin{center}
+\includegraphics[width=4cm]{hallowelt.jpg}
+\caption{Hallo, ich bin ein Bild}\label{fig:hallo}
+\end{center}
+\end{figure}
+
+Siehe Abbildung \ref{fig:hallo} auf Seite \pageref{fig:hallo}.
+
+\end{document}
