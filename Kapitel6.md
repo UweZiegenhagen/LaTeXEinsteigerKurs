@@ -86,4 +86,4 @@ Wie bei Abbildungen gibt es auch den Trick, nicht gleitende Tabellen, in das Inh
 
 Hinweis: bei Verwendung einer KOMA-Script-Klasse (was ich jedem nur empfehlen kann) oder des `caption` Pakets wird das Paket `capt-of` nicht benötigt, da diese die Anweisung `\captionof` bereits intern selbst zur Verfügung stellen. 
 
-Weiter geht es im [nächsten Kapitel](Kapitel7.md) mit 
+Weiter geht es im [nächsten Kapitel](Kapitel7.md) mit dem Satz von mathematischen Formeln.

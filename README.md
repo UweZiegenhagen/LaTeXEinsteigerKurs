@@ -6,6 +6,7 @@
 * [Kapitel 4: Aufzählungen und Textauszeichnung](Kapitel4.md)
 * [Kapitel 5: Bilder einbinden](Kapitel5.md)
 * [Kapitel 6: Tabellen setzen](Kapitel6.md)
+* [Kapitel 7: Mathe-Satz](Kapitel7.md)
 
 # Kapitel 1: Einleitung
 
