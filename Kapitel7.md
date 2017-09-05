@@ -31,7 +31,13 @@ Auch abgesetzte Formeln sind möglich.
 \end{document}
 ```
 
-Hinweis: Die `$$`-Notation für abgesetzte Formeln wird nicht empfohlen, funktioniert aber. Sie ist aber eigentlich kein Teil des LaTeX-Funktionsumfangs.
+Hinweis: Es gibt noch die  `$$a^2+b^2=c^2$$`-Notation für abgesetzte Formeln, diese wird aber nicht empfohlen,denn:
+
+* Sie ist aber offiziell kein Teil des LaTeX-Funktionsumfangs.
+* Die `fleqn` Optionen zum linksbündigen Positionieren von Formeln funktioniert nicht mehr
+* Es kann "Problem" mit vertikalen Abständen geben
+
+Hinweis: Nutzt man `\[ \]`, dann wird das Laden von `amsmath` empfohlen: `\usepackage{amsmath}`.
 
 ## Formeln mit Nummern
 
