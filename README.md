@@ -1,12 +1,15 @@
 # Inhaltsverzeichnis
 
-* [Kapitel 1: Einleitung und das erste Dokument](README.md)
+* [Kapitel 1: Einleitung und das erste LaTeX-Dokument](README.md)
 * [Kapitel 2: Dokumentenklasse und Auswahl der LaTeX-Engine](Kapitel2.md)
 * [Kapitel 3: Gliederungsbefehle und Inhaltsverzeichnis](Kapitel3.md)
 * [Kapitel 4: Aufzählungen und Textauszeichnung](Kapitel4.md)
 * [Kapitel 5: Bilder einbinden](Kapitel5.md)
 * [Kapitel 6: Tabellen setzen](Kapitel6.md)
-* [Kapitel 7: Mathe-Satz](Kapitel7.md)
+* [Kapitel 7: Mathematik-Satz](Kapitel7.md)
+* Kapitel 8: Technische Zeichnungen mit LaTeX
+* Kapitel 9: Präsentationen mit dem ``beamer`` Paket
+* Kapitel 9: Briefe setzen mit ``scrlttr2``
 
 # Kapitel 1: Einleitung
 
