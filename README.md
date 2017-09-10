@@ -16,11 +16,27 @@ Fehlermeldungen und Verbesserungsvorschläge werden gern angenommen.
 
 Vom Anspruch her versuche ich, vor allem auf Standard-LaTeX zu setzen. Wo es mir sinnvoll erscheint, erwähne ich aber wichtige Zusatzpakete und stelle entsprechende 1Beispiele bereit.
 
+## Der Name
+
+Quelle: "A plain TeX Primer" von Malcolm Clark
+
+* TeX ist abgeleitet von "Tau Epsilon Chi", der ersten Silbe des griechischen Wortes "tèkhne" (über das letzten 'e' kommt noch ein Querstrich), Basis für Wörter wie "Technologie" oder "Technik"
+* damals in der Bedeutung von "Kunst" oder "Kunstfertigkeit"
+* Aussprache wie "teck" oder "tech" ist richtig, nicht "latex"
+
 ## Historisches
 
+### TeX
 * TeX wurde seit Ende der 1970er vom Stanford-Professor Donald Knuth entwickelt
-* Sein Ziel: die Neu-Auflage von "The Art of Computer Programming" qualitativ hochwertig setzen.
-* TeX ist recht "sperrig" im Umgang, daher entwickelte Leslie Lamport eine Sammlung von Makros, mit denen man TeX leichter bedienen konnte und nannte diese "LaTeX" (gesprochen "La-Tech" oder "Le-Tech", nicht "Latex")
+* Knuth ist bekannt für sein Werk "The Art of Computer Programming" über theoretische Informatik
+* 1973 stand die Neu-Auflage der bisher erschienenen Bände an, Satz-Industrie wechselte zu dieser Zeit von Bleisatz auf Fotosatz
+* Ergebnisse waren für Knuth nicht gut genug
+* ab dem 5. Mai 1977 verbrachte Knuth Zeit mit der Entwicklung von TeX
+
+### LaTeX
+
+* TeX ist recht "kompliziert" im Umgang, selbst Knuth nutzte diverse Makros für seine Bücher 
+* Leslie Lamport (heute bei Microsoft Research) entwickelte eine Makro-Sammlung, mit denen man TeX leichter bedienen konnte und nannte diese "LaTeX" (gesprochen "La-Tech" oder "Le-Tech", nicht "Latex")
 
 ## Warum sollte ich LaTeX nutzen?
 
