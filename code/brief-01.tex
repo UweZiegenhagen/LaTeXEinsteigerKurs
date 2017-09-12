@@ -1,0 +1,25 @@
+\documentclass[12pt,ngerman]{scrlttr2}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{blindtext}
+\usepackage{palatino} 
+
+\begin{document}
+ 
+\setkomavar{fromname}{Max Mustermann}
+\setkomavar{fromaddress}{Musterstr. 12 \\ 12345~Musterstadt}
+\setkomavar{subject}{Mahnung}
+\setkomavar{myref}{2017-xyz}
+\setkomavar{yourref}{08.09.2017}
+
+\begin{letter}{Martina Musterfrau \\ Musterweg 4 \\ 12346~Musterdorf}
+\opening{Sehr geehrte Damen und Herren,}
+ 
+\blindtext[1]
+
+\closing{Mit freundlichen Grüßen,}
+\encl{Dokument 1 \\ Dokument 2}
+\end{letter}
+ 
+\end{document}
