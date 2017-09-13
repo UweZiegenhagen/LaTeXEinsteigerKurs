@@ -7,7 +7,7 @@
 * [Kapitel 5: Bilder einbinden](Kapitel5.md)
 * [Kapitel 6: Tabellen setzen](Kapitel6.md)
 * [Kapitel 7: Mathematik-Satz](Kapitel7.md)
-* Kapitel 8: Technische Zeichnungen mit LaTeX
+* Kapitel 8: Zeichnungen in LaTeX erstellen
 * Kapitel 9: Präsentationen mit dem ``beamer`` Paket
 * [Kapitel 10: Briefe setzen mit ``scrlttr2``](Kapitel10.md)
 
@@ -25,7 +25,7 @@ Quelle: "A plain TeX Primer" von Malcolm Clark
 
 * TeX ist abgeleitet von "Tau Epsilon Chi", der ersten Silbe des griechischen Wortes "tèkhne" (über das letzten 'e' kommt noch ein Querstrich), Basis für Wörter wie "Technologie" oder "Technik"
 * damals in der Bedeutung von "Kunst" oder "Kunstfertigkeit"
-* Aussprache wie "teck" oder "tech" ist richtig, nicht "latex"
+* Aussprache wie "teck" oder "tech" ist richtig, nicht wie "Latex", das Baumharz
 
 ## Historisches
 
@@ -34,7 +34,7 @@ Quelle: "A plain TeX Primer" von Malcolm Clark
 * Knuth ist bekannt für sein Werk "The Art of Computer Programming" über theoretische Informatik
 * 1973 stand die Neu-Auflage der bisher erschienenen Bände an, Satz-Industrie wechselte zu dieser Zeit von Bleisatz auf Fotosatz
 * Ergebnisse waren für Knuth nicht gut genug
-* ab dem 5. Mai 1977 verbrachte Knuth Zeit mit der Entwicklung von TeX
+* ab dem 5. Mai 1977 begann die Entwicklung von TeX
 
 ### LaTeX
 
