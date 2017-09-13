@@ -9,7 +9,7 @@
 * [Kapitel 7: Mathematik-Satz](Kapitel7.md)
 * Kapitel 8: Technische Zeichnungen mit LaTeX
 * Kapitel 9: Präsentationen mit dem ``beamer`` Paket
-* Kapitel 9: Briefe setzen mit ``scrlttr2``
+* [Kapitel 10: Briefe setzen mit ``scrlttr2``](Kapitel10.md)
 
 # Kapitel 1: Einleitung
 
