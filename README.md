@@ -13,11 +13,11 @@
 
 # Kapitel 1: Einleitung
 
-Jedes Jahr halte ich einen oder mehrere Einsteigerkurse für LaTeX. In diesem git-Repository sammle ich Beispiele, die mit steigender Komplexität zeigen sollen, wie man aus meiner Sicht am besten mit LaTeX beginnt. 
-
-Fehlermeldungen und Verbesserungsvorschläge werden gern angenommen.
+Jedes Jahr halte ich einen oder mehrere Einsteigerkurse für LaTeX. In diesem git-Repository sammle ich Beispiele, die mit steigender Komplexität zeigen sollen, wie man -- zumindest aus meiner Sicht -- am einfachsten mit LaTeX beginnt. 
 
 Vom Anspruch her versuche ich, vor allem auf Standard-LaTeX zu setzen. Wo es mir sinnvoll erscheint, erwähne ich aber wichtige Zusatzpakete und stelle entsprechende Beispiele bereit.
+
+Fehlermeldungen und Verbesserungsvorschläge werden gern angenommen.
 
 ## Der Name
 
@@ -38,8 +38,9 @@ Quelle: "A plain TeX Primer" von Malcolm Clark
 
 ### LaTeX
 
-* TeX ist recht "kompliziert" im Umgang, selbst Knuth nutzte diverse Makros für seine Bücher 
-* Leslie Lamport (heute bei Microsoft Research) entwickelte eine Makro-Sammlung, mit denen man TeX leichter bedienen konnte und nannte diese "LaTeX" (gesprochen "La-Tech" oder "Le-Tech", nicht "Latex")
+* TeX ist recht "kompliziert" im Umgang, Knuth selbst nutzte diverse Makros für seine Bücher 
+* Leslie Lamport (heute bei Microsoft Research) entwickelte eine Makro-Sammlung, mit denen man TeX leichter bedienen konnte und nannte diese "LaTeX" (gesprochen "La-Tech" oder "Le-Tech", nicht "Latex"). LaTeX ist der gebräuchlichste Weg, um mit TeX zu interagieren. 
+* ConTeXt ist eine Alternative zu LaTeX, der Benutzerkreis ist aber deutlich kleiner als bei LaTeX. Hat man Probleme, so findet sich im LaTeX-Umfeld leichter Hilfe.
 
 ## Warum sollte ich LaTeX nutzen?
 
