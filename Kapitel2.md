@@ -27,7 +27,6 @@ Hinweis: alle drei gibt es auch ohne das "la" im Namen, also als `pdftex`, `xete
 
 Welche TeX-Engine solltet ihr nehmen? Hängt davon ab, aber mit `pdflatex` macht man als Anfänger nichts falsch. Wenn man Systemschriften nutzen möchte oder muss, kommt man um xelatex üblicherweise nicht herum, wenn es um weitergehende Programmierung geht, ist sicherlich `lualatex` Mittel der Wahl.
 
-
 Da dies hier ein Anfängertutorial sein soll, werden wir uns im folgenden auf `pdflatex` konzentrieren. Gegebenenfalls werde ich wichtige Punkte erwähnen, die in xelatex/lualatex anders sind.
 
 ## Unser erstes 'richtiges' Dokument
@@ -37,6 +36,7 @@ Im folgenden bauen wir Schritt für Schritt ein komplettes Dokument auf.
 Beginnen wir mit dem folgenden Schnipsel, der die KOMA-Klasse `scrartcl` mit der Grundschrifthöhe 12pt nutzt:
 
 **document-01.tex**
+
 ```latex
 \documentclass[12pt]{scrartcl}
 
@@ -93,6 +93,6 @@ Hallo Welt!
 
 Aufgabe: Ersetzt mal testweise die `scrartcl` Dokumentenklasse durch `scrreprt` oder `scrbook`! Was verändert sich?
 
-Ein Hinweis zur Titelseite: individuelle Titelseiten lassen sich mit der `titlepage`-Umgebung auch erstellen. Das ist aber recht komplex und wird daher erst in einem späteren Kapitel behandelt.
+Ein Hinweis zur Titelseite: individuelle Titelseiten lassen sich mit der `titlepage`-Umgebung auch erstellen. Das ist aber recht komplex und wird daher -- wenn überhaupt -- erst in einem späteren Kapitel behandelt.
 
 Weiter geht es im [nächsten Kapitel](Kapitel3.md)

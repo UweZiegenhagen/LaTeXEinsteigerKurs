@@ -16,7 +16,7 @@
 
 Jedes Jahr halte ich einen oder mehrere Einsteigerkurse für LaTeX. In diesem git-Repository sammle ich Beispiele, die mit steigender Komplexität zeigen sollen, wie man -- zumindest aus meiner Sicht -- am einfachsten mit LaTeX beginnt. 
 
-Vom Anspruch her versuche ich, vor allem auf Standard-LaTeX zu setzen. Wo es mir sinnvoll erscheint, erwähne ich aber wichtige Zusatzpakete und stelle entsprechende Beispiele bereit.
+Dieser Kurs beinhaltet Materialien für einen oder zwei Tage und setzt vor allem auf Standard-LaTeX. Wo es mir sinnvoll erscheint, erwähne ich aber wichtige Zusatzpakete und stelle entsprechende Beispiele bereit.
 
 Fehlermeldungen und Verbesserungsvorschläge werden gern angenommen.
 
