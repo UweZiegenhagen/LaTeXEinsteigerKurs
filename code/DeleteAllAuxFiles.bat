@@ -1,0 +1,9 @@
+del *.aux
+del *.log
+del *synctex.gz
+del *.toc
+del *.lof
+del *.lot
+del *.nav
+del *.snm
+del *.out
