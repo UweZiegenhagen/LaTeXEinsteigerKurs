@@ -8,7 +8,7 @@
 * [Kapitel 6: Tabellen setzen](Kapitel6.md)
 * [Kapitel 7: Mathematik-Satz](Kapitel7.md)
 * Kapitel 8: Zeichnungen in LaTeX erstellen
-* Kapitel 9: Präsentationen mit dem ``beamer`` Paket
+* [Kapitel 9: Präsentationen mit dem ``beamer`` Paket](Kapitel9.md)
 * [Kapitel 10: Briefe setzen mit ``scrlttr2``](Kapitel10.md)
 
 # Kapitel 1: Einleitung
@@ -25,7 +25,7 @@ Quelle: "A plain TeX Primer" von Malcolm Clark
 
 * TeX ist abgeleitet von "Tau Epsilon Chi", der ersten Silbe des griechischen Wortes "tèkhne" (über das letzten 'e' kommt noch ein Querstrich), Basis für Wörter wie "Technologie" oder "Technik"
 * damals in der Bedeutung von "Kunst" oder "Kunstfertigkeit"
-* Aussprache wie "teck" oder "tech" ist richtig, nicht wie "Latex", das Baumharz
+* Aussprache wie "teck" oder "tech" ist richtig, nicht wie in "Latex", dem Baumharz
 
 ## Historisches
 
