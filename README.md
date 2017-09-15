@@ -17,7 +17,7 @@ Jedes Jahr halte ich einen oder mehrere Einsteigerkurse für LaTeX. In diesem gi
 
 Fehlermeldungen und Verbesserungsvorschläge werden gern angenommen.
 
-Vom Anspruch her versuche ich, vor allem auf Standard-LaTeX zu setzen. Wo es mir sinnvoll erscheint, erwähne ich aber wichtige Zusatzpakete und stelle entsprechende 1Beispiele bereit.
+Vom Anspruch her versuche ich, vor allem auf Standard-LaTeX zu setzen. Wo es mir sinnvoll erscheint, erwähne ich aber wichtige Zusatzpakete und stelle entsprechende Beispiele bereit.
 
 ## Der Name
 
