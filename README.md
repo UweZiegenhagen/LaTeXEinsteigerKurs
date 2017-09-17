@@ -110,6 +110,8 @@ Hallo \LaTeX, ich bin ein \textbf{Text} in fett.
 \end{document}
 ```
 
+![document-00.png](code/document-00.png)
+
 Achtung: Wenn dieses Dokument beim Übersetzen Fehler produziert, dann ist was faul. Such jemanden, der LaTeX-Erfahrung hat oder frage nett in einem LaTeX-Forum.
  
 Jetzt zur Erklärung, was dieses Dokument macht:

@@ -40,6 +40,10 @@
 \end{document}
 ```
 
+![brief-01.png](code/brief-01.png)
+
+
+
 ## Auslagerung von Stammdaten
 
 Stammdaten wie Absender und Absenderadresse sind statisch und ändern sich nur selten. Diese lassen sich in eine Datei mit der Endung ``.lco`` auslagern. Den Namen der Datei (ohne das ``.lco``) lädt man dann als Klassenoption
@@ -71,6 +75,8 @@ Stammdaten wie Absender und Absenderadresse sind statisch und ändern sich nur s
  
 \end{document}
 ```
+
+
 
 Die passende ``max.lco`` Datei sieht so aus:
 

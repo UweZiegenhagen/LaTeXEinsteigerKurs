@@ -41,6 +41,8 @@ links & rechts & zentrierte Spalte & linksbündig mit Umbruch \\ \hline
 \end{document}
 ```
 
+![document-11.png](code/document-11.png)
+
 ## Float-Tabellen
 
 Wie bei Bildern kann -- oder sollte man -- LaTeX selbst entscheiden lassen, wo die Tabelle am besten hinpasst. Dazu packt man die `tabular`-Umgebung in eine `table` Umgebung. Dann lässt sich auch der normale `\caption{}` Befehl nutzen, der im Gegensatz zu Bildern überhalb der Tabelle gesetzt wird. 
@@ -79,6 +81,8 @@ Siehe Tabelle \ref{tab:ersteTabelle} auf Seite \pageref{tab:ersteTabelle}.
 
 \end{document}
 ```
+
+![document-12.png](code/document-12.png)
 
 ## Nicht-gleitende Tabellen im Tabellenverzeichnis
 

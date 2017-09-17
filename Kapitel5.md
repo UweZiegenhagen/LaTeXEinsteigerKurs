@@ -32,6 +32,8 @@ Annahme: Im selben Verzeichnis wie die LaTeX-Datei liegt auch das Bild `hallowel
 \end{document}
 ```
 
+![document-08.png](code/document-08.png)
+
 ## Maße anpassen
 
 Der  `\includegraphics` Befehl hat diverse Optionen zur Transformation der Bilder. Ich nutze persönlich nur die `width`-Option, um die Breite des Bildes anzupassen. Dies kann in absoluten Maßen geschehen oder relativ wie der halben Textbreite. Eine zusätzliche Höhe muss nicht angegeben werden, LaTeX skaliert diese entsprechend des Seitenverhältnisses. Im folgenden Beispiel sind beide Versionen gezeigt, gleichzeitig werden die Bilder zentriert.
@@ -69,6 +71,8 @@ Der  `\includegraphics` Befehl hat diverse Optionen zur Transformation der Bilde
 
 \end{document}
 ```
+
+![document-09.png](code/document-09.png)
 
 ## Bilder für das Abbildungsverzeichnis
 
@@ -111,6 +115,8 @@ Siehe Abbildung \ref{fig:hallo} auf Seite \pageref{fig:hallo}.
 
 \end{document}
 ```
+
+![document-10.png](code/document-10.png)
 
 ## Nicht-gleitende Bilder im Abbildungsverzeichnis
 

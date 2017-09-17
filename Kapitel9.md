@@ -76,6 +76,14 @@
 \end{document}
 ```
 
+![beamer-01-0.png](code/beamer-01-0.png)
+
+![beamer-01-1.png](code/beamer-01-1.png)
+
+![beamer-01-2.png](code/beamer-01-2.png)
+
+![beamer-01-3.png](code/beamer-01-3.png)
+
 ## Designs setzen
 
 Mit nur zwei Befehlen lassen sich das generelle Design und das Farbdesign anpassen:
@@ -149,6 +157,15 @@ Das folgende Beispiel setzt diese um.
 \end{document}
 ```
 
+![beamer-02-0.png](code/beamer-02-0.png)
+
+![beamer-02-1.png](code/beamer-02-1.png)
+
+![beamer-02-2.png](code/beamer-02-2.png)
+
+![beamer-02-3.png](code/beamer-02-3.png)
+
+
 ## Text-Animationen
 
 Mit wenig Aufwand lassen sich auch Bullet-Points erstellen, die erst nach und nach aufgeblättert werden:
@@ -198,6 +215,14 @@ Mit wenig Aufwand lassen sich auch Bullet-Points erstellen, die erst nach und na
 
 \end{document}
 ```
+
+![beamer-032-0.png](code/beamer-03-0.png)
+
+![beamer-03-1.png](code/beamer-03-1.png)
+
+![beamer-03-2.png](code/beamer-03-2.png)
+
+![beamer-03-3.png](code/beamer-03-3.png)
 
 
 ## Mehr
