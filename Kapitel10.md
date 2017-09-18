@@ -40,7 +40,7 @@
 \end{document}
 ```
 
-![brief-01.png](code/brief-01.png)
+![brief-01.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/brief-01.png)
 
 
 

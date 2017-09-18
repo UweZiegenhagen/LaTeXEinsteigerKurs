@@ -47,7 +47,7 @@ Hallo Welt!
 \end{document}
 ```
 
-![document-01.png](code/document-01.png)
+![document-01.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-01.png)
 
 Als nächstes teilen wir LaTeX mit, dass unsere Datei in UTF-8 kodiert ist, wir mit westeuropäischen Schriften arbeiten und deutsche Silbentrennung haben möchten.
 
@@ -66,7 +66,7 @@ Hallo Welt!
 \end{document}
 ```
 
-![document-02.png](code/document-02.png)
+![document-02.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-02.png)
 
 Dies ist das Grundgerüst für jedes `pdflatex`-Dokument, diese paar Zeilen kann man sich merken oder abspeichern. 
 
@@ -93,7 +93,7 @@ Hallo Welt!
 \end{document}
 ```
 
-![document-03.png](code/document-03.png)
+![document-03.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-03.png)
 
 Aufgabe: Ersetzt mal testweise die `scrartcl` Dokumentenklasse durch `scrreprt` oder `scrbook`! Was verändert sich?
 

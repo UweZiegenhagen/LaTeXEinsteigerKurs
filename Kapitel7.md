@@ -31,7 +31,7 @@ Auch abgesetzte Formeln sind möglich.
 \end{document}
 ```
 
-![document-13.png](code/document-13.png)
+![document-13.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-13.png)
 
 
 Hinweis: Es gibt noch die  `$$a^2+b^2=c^2$$`-Notation für abgesetzte Formeln, diese wird aber nicht empfohlen,denn:
@@ -68,7 +68,7 @@ Siehe Gleichung \ref{eq:Pythagoras} auf Seite \pageref{eq:Pythagoras}.
 \end{document}
 ```
 
-![document-14.png](code/document-14.png)
+![document-14.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-14.png)
 
 Hinweis: Unter https://tex.stackexchange.com/questions/173102/table-of-equations-like-list-of-figures findet man Tipps dazu, wie man analog zu den Inhaltverzeichnissen für Bilder und Tabellen auch für Formeln ein Inhaltsverzeichnis erstellen kann.
 
@@ -131,7 +131,7 @@ $a_23 \not= a_{23}$
 \end{document}
 ```
 
-![document-15.png](code/document-15.png)
+![document-15.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-15.png)
 
 Eine gute Übersicht über den Satz von Formeln aller Art findet man im Buch von Herbert Voß: https://www.lehmanns.de/shop/mathematik-informatik/23095957-9783865414854-mathematiksatz-mit-latex
 

@@ -40,7 +40,7 @@ Das folgende Beispiel zeigt, wie man die Standard-Aufzählungen in LaTeX nutzen 
 \end{document}
 ```
 
-![document-05.png](code/document-05.png)
+![document-05.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-05.png)
 
 Man kann die Umgebungen auch verschachteln, siehe dazu das folgende Beispiel:
 
@@ -82,7 +82,7 @@ Man kann die Umgebungen auch verschachteln, siehe dazu das folgende Beispiel:
 \end{document}
 ```
 
-![document-06.png](code/document-06.png)
+![document-06.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-06.png)
 
 ## Textauszeichnung
 
@@ -116,7 +116,7 @@ Dies ist ein \textbf{\textit{fett-kursives}} Wort.
 \end{document}
 ```
 
-![document-07.png](code/document-07.png)
+![document-07.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-07.png)
 
 Für Unterstreichungen gilt: sie sind böse und sollten nicht genutzt werden, schon gar nicht im Zusammenhang mit Überschriften! Mehr dazu unter [http://www.typovia.at/index.php/typografie/grundlagen/goldene-regel-der-typografie](http://www.typovia.at/index.php/typografie/grundlagen/goldene-regel-der-typografie)
 

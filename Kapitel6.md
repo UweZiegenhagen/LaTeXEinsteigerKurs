@@ -41,7 +41,7 @@ links & rechts & zentrierte Spalte & linksbündig mit Umbruch \\ \hline
 \end{document}
 ```
 
-![document-11.png](code/document-11.png)
+![document-11.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-11.png)
 
 ## Float-Tabellen
 
@@ -82,7 +82,7 @@ Siehe Tabelle \ref{tab:ersteTabelle} auf Seite \pageref{tab:ersteTabelle}.
 \end{document}
 ```
 
-![document-12.png](code/document-12.png)
+![document-12.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-12.png)
 
 ## Nicht-gleitende Tabellen im Tabellenverzeichnis
 

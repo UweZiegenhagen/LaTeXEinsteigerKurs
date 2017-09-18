@@ -32,7 +32,7 @@ Annahme: Im selben Verzeichnis wie die LaTeX-Datei liegt auch das Bild `hallowel
 \end{document}
 ```
 
-![document-08.png](code/document-08.png)
+![document-08.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-08.png)
 
 ## Maße anpassen
 
@@ -72,7 +72,7 @@ Der  `\includegraphics` Befehl hat diverse Optionen zur Transformation der Bilde
 \end{document}
 ```
 
-![document-09.png](code/document-09.png)
+![document-09.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-09.png)
 
 ## Bilder für das Abbildungsverzeichnis
 
@@ -116,7 +116,7 @@ Siehe Abbildung \ref{fig:hallo} auf Seite \pageref{fig:hallo}.
 \end{document}
 ```
 
-![document-10.png](code/document-10.png)
+![document-10.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-10.png)
 
 ## Nicht-gleitende Bilder im Abbildungsverzeichnis
 
