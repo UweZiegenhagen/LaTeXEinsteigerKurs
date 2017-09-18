@@ -78,11 +78,11 @@
 
 ![beamer-01-0.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-01-0.png)
 
-![beamer-01-1.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/beamer-01-1.png)
+![beamer-01-1.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-01-1.png)
 
-![beamer-01-2.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/beamer-01-2.png)
+![beamer-01-2.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-01-2.png)
 
-![beamer-01-3.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/beamer-01-3.png)
+![beamer-01-3.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-01-3.png)
 
 ## Designs setzen
 
@@ -157,13 +157,13 @@ Das folgende Beispiel setzt diese um.
 \end{document}
 ```
 
-![beamer-02-0.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/beamer-02-0.png)
+![beamer-02-0.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-02-0.png)
 
-![beamer-02-1.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/beamer-02-1.png)
+![beamer-02-1.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-02-1.png)
 
-![beamer-02-2.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/beamer-02-2.png)
+![beamer-02-2.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-02-2.png)
 
-![beamer-02-3.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/beamer-02-3.png)
+![beamer-02-3.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-02-3.png)
 
 
 ## Text-Animationen
@@ -216,13 +216,13 @@ Mit wenig Aufwand lassen sich auch Bullet-Points erstellen, die erst nach und na
 \end{document}
 ```
 
-![beamer-032-0.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/beamer-03-0.png)
+![beamer-032-0.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-03-0.png)
 
-![beamer-03-1.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/beamer-03-1.png)
+![beamer-03-1.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-03-1.png)
 
-![beamer-03-2.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/beamer-03-2.png)
+![beamer-03-2.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-03-2.png)
 
-![beamer-03-3.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/beamer-03-3.png)
+![beamer-03-3.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-03-3.png)
 
 
 ## Mehr
