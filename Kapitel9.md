@@ -40,7 +40,7 @@
 \tableofcontents
 
 \end{frame}
-
+ 
 
 \section{Einleitung}
 
@@ -76,13 +76,13 @@
 \end{document}
 ```
 
-![beamer-01-0.png](code/beamer-01-0.png)
+![beamer-01-0.png](./code/beamer-01-0.png)
 
-![beamer-01-1.png](code/beamer-01-1.png)
+![beamer-01-1.png](./code/beamer-01-1.png)
 
-![beamer-01-2.png](code/beamer-01-2.png)
+![beamer-01-2.png](./code/beamer-01-2.png)
 
-![beamer-01-3.png](code/beamer-01-3.png)
+![beamer-01-3.png](./code/beamer-01-3.png)
 
 ## Designs setzen
 
