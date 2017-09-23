@@ -7,7 +7,7 @@
 * [Kapitel 5: Bilder einbinden](Kapitel5.md)
 * [Kapitel 6: Tabellen setzen](Kapitel6.md)
 * [Kapitel 7: Mathematik-Satz](Kapitel7.md)
-* Kapitel 8: Literaturverzeichnisse mit ``biblatex``
+* [Kapitel 8: Literaturverzeichnisse mit ``biblatex``](Kapitel8.md)
 * [Kapitel 9: Präsentationen mit dem ``beamer`` Paket](Kapitel9.md)
 * [Kapitel 10: Briefe setzen mit ``scrlttr2``](Kapitel10.md)
 * Kapitel 11: Zeichnungen in LaTeX erstellen

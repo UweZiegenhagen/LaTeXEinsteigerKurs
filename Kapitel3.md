@@ -18,6 +18,7 @@ Zusätzlich fügen wir noch den Befehl `\tableofcontents` ein, um ein Inhaltsver
 Hinweis: Wir müssen das Dokument ab jetzt immer (zumindest immer wenn wir die Sections editieren) zweimal übersetzen! Beim ersten Übersetzen erstellt LaTeX das Inhaltsverzeichnis in einer externen Datei (Dateiname.**toc**), beim zweiten Lauf wird der Inhalt dieser **.toc** Datei dann in das Dokument eingefügt und gesetzt.
 
 **document-04.tex**
+
 ```latex
 \documentclass[12pt,ngerman]{scrartcl}
 
