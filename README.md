@@ -119,10 +119,10 @@ Jetzt zur Erklärung, was dieses Dokument macht:
 * Die `\documentclass` legt fest, was wir eigentlich schreiben wollen. Jede Dokumentenklasse ist letztlich nichts anderes als eine Vorlage. Und da sich ein kurzer Artikel von fünf Seiten und ein 2000-Seiten-Buch voneinander unterscheiden, gibt es da unterschiedliche.
 * [12pt] ist ein optionaler Parameter und legt die Höhe der Grundschrift fest, also dem Fließtext. Alle weiteren Größen, von Überschriften bis zu den Fußnoten, wird von dieser Schriftgröße abgeleitet
 * Den Teil vor `\begin{document}` nennt man Präambel. Hier kommen alle Definitionen und ähnliches rein, die das Aussehen unseres Dokuments bestimmen.
-* Die Kombination aus `\begin{document}` und `\end{document}` ist dabei eine _Umgebung_, den Begriff werden wir öfter hören.
+* Die Kombination aus `\begin{<irgendwas>}` und `\end{<irgendwas>}` ist dabei eine _Umgebung_, den Begriff werden wir öfter hören.
 * `\LaTeX` ist ein _Befehl_, auch dieser Begriff wird öfter fallen.
 * Befehle können Parameter haben, wie zum Beispiel der `\textbf{}` Befehl, der den Text in geschweiften Klammern fett druckt.
 * die folgenden Zeilen definieren eine _itemize_ Umgebung, eine nicht nummerierte Aufzählung mit Bulletpoints.
 * `\end{document}` beendet das Dokument. Alles dahinter wird ignoriert.
 
-So, weiter geht es in der [nächsten Datei](Kapitel2.md).
+So, weiter geht es in der [nächsten Datei](Kapitel2.md) mit Dokumentenklassen und der Auswahl der passenden LaTeX-Engine.
