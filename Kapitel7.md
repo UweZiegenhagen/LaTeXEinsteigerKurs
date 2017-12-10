@@ -135,5 +135,6 @@ $a_23 \not= a_{23}$
 
 Eine gute Übersicht über den Satz von Formeln aller Art findet man im Buch von Herbert Voß: https://www.lehmanns.de/shop/mathematik-informatik/23095957-9783865414854-mathematiksatz-mit-latex
 
+Unter [http://www.tug.org/pracjourn/2006-4/madsen/madsen.pdf](http://www.tug.org/pracjourn/2006-4/madsen/madsen.pdf "Avoid eqnarray!") findet man einen interessanten Artikel zu AMS Math Umgebungen, die den LaTeX Äquivalenten vorzuziehen sind.
 
-Weiter geht es im [nächsten Kapitel](Kapitel8.md) mit 
+Weiter geht es im [nächsten Kapitel](Kapitel8.md) mit der Erstellung von Literaturverzeichnissen.
