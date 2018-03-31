@@ -93,7 +93,7 @@ Hallo Welt!
 \end{document}
 ```
 
-![document-03.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-03.png| width=50)
+![document-03.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-03.png)
 
 Aufgabe: Ersetzt mal testweise die `scrartcl` Dokumentenklasse durch `scrreprt` oder `scrbook`! Was verändert sich?
 
