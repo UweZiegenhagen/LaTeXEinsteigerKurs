@@ -76,7 +76,7 @@ Geben wir dem Dokument als nächstes den Autor und Titel mit und lassen diesen T
 
 **document-03.tex**
 ```latex
-\documentclass[12pt]{scrartcl}
+\documentclass[12pt,ngerman]{scrartcl}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -93,7 +93,7 @@ Hallo Welt!
 \end{document}
 ```
 
-![document-03.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-03.png)
+![document-03.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-03.png| width=50)
 
 Aufgabe: Ersetzt mal testweise die `scrartcl` Dokumentenklasse durch `scrreprt` oder `scrbook`! Was verändert sich?
 
