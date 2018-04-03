@@ -9,7 +9,6 @@ Im ersten Kapitel hatten wir ein Beispiel gesehen, das die Dokumentenklasse `art
 Ganz klar zu empfehlen sind die Klassen aus dem KOMA-Script Paket von Markus Kohm. Sie ersetzen die ursprünglichen Klassen perfekt und produzieren wohlfeile Dokumente. Es gilt also:
 
 * Lass article, report und book weg, wenn es keinen _spezifischen_ Grund dafür gibt.
-* Vergiss am besten, dass es sie gibt.
 * Ersetze:
 	* `article` durch `scrartcl`
 	* `report` durch  `scrreprt`
@@ -17,17 +16,17 @@ Ganz klar zu empfehlen sind die Klassen aus dem KOMA-Script Paket von Markus Koh
 
 ## Die richtige TeX-Engine
 
-Es gibt mehr als einen Weg, ein TeX-Dokument zu übersetzen. Im ersten Kapitel hatten wir ja `pdflatex` benutzt, es gibt aber Alternativen. Hier eine kurze Übersicht.
+Es gibt mehr als einen Weg, ein TeX-Dokument zu übersetzen. Im ersten Kapitel hatten wir  `pdflatex` benutzt, es gibt aber Alternativen. Hier eine kurze Übersicht.
 
-* **pdflatex**: die schnellste Engine, sehr ausgereift. Kann aber nicht mit OpenType-Fonts umgehen, die Integration von Schriften ist sehr komplex und wird keinem Anfänger empfohlen
-* **xelatex**: kann mit den Systemschriften umgehen, ist aber m.E. nicht mehr aktiv in der Entwicklung
+* **pdflatex**: die schnellste Engine, sehr ausgereift. Kann aber nicht mit OpenType-Fonts umgehen, die Integration von Schriften ist sehr komplex und wird daher keinem Anfänger empfohlen
+* **xelatex**: kann mit den Systemschriften umgehen, ist aber AFAIK nicht mehr aktiv in der Entwicklung
 * **lualatex**: aktiv in der Entwicklung, die langsamste der Engines. Wie xelatex kann luaLaTeX mit Systemfonts im OTF-Format umgehen. Ein Hauptvorteil ist die integrierte Lua-Engine, die vieles in der Arbeit mit dem TeX-Kern leichter macht.
 
-Hinweis: alle drei gibt es auch ohne das "la" im Namen, also als `pdftex`, `xetex` und `luatex`. Diese drei Varianten verstehen nur pures TeX, mit LaTeX können sie nichts anfangen und werfen schon beim "\documentclass" Fehlermeldungen.
+Hinweis: alle drei gibt es auch ohne das "la" im Namen, also als `pdftex`, `xetex` und `luatex`. Diese drei Varianten verstehen nur pures TeX, mit LaTeX können sie nichts anfangen und werfen schon beim "\documentclass{}" Fehlermeldungen. Die Arbeit mit TeX ist noch ein wenig `komischer` als die Arbeit mit LaTeX. Ich empfehle daher, mit LaTeX anzufangen.
 
-Welche TeX-Engine solltet ihr nehmen? Hängt davon ab, aber mit `pdflatex` macht man als Anfänger nichts falsch. Wenn man Systemschriften nutzen möchte oder muss, kommt man um xelatex üblicherweise nicht herum, wenn es um weitergehende Programmierung geht, ist sicherlich `lualatex` Mittel der Wahl.
+Welche TeX-Engine solltet ihr nehmen? Hängt davon ab, aber mit `pdflatex` macht man als Anfänger nichts falsch. Wenn man Systemschriften nutzen möchte oder muss, kommt man um xelatex/lualatex üblicherweise nicht herum, wenn es um weitergehende Programmierung geht, ist sicherlich `lualatex` das Mittel der Wahl.
 
-Da dies hier ein Anfängertutorial sein soll, werden wir uns im folgenden auf `pdflatex` konzentrieren. Gegebenenfalls werde ich wichtige Punkte erwähnen, die in xelatex/lualatex anders sind.
+Da dies hier ein Anfängertutorial sein soll, werden wir uns im folgenden auf `pdflatex` konzentrieren. Gegebenenfalls werde ich wichtige Punkte erwähnen, die in xelatex/lualatex beachtenswert sind.
 
 ## Unser erstes 'richtiges' Dokument
 
@@ -49,9 +48,12 @@ Hallo Welt!
 
 ![document-01.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-01.png)
 
+![document-01.png](./code/document-01.png)
+
 Als nächstes teilen wir LaTeX mit, dass unsere Datei in UTF-8 kodiert ist, wir mit westeuropäischen Schriften arbeiten und deutsche Silbentrennung haben möchten.
 
 **document-02.tex**
+
 ```latex
 \documentclass[12pt]{scrartcl}
 
@@ -72,9 +74,10 @@ Dies ist das Grundgerüst für jedes `pdflatex`-Dokument, diese paar Zeilen kann
 
 `babel` sorgt nicht nur für die richtige Silbentrennung, es deutscht auch das Datum ein und die Überschriften für die verschiedenen Inhaltsverzeichnisse.
 
-Geben wir dem Dokument als nächstes den Autor und Titel mit und lassen diesen Titel dann mit `\maketitle` setzen:
+Geben wir dem Dokument als nächstes den Autor und Titel mit und lassen diesen Titel dann mit dem Befehl `\maketitle` setzen:
 
 **document-03.tex**
+
 ```latex
 \documentclass[12pt,ngerman]{scrartcl}
 
