@@ -8,9 +8,9 @@ Es gibt verschiedene Möglichkeiten, in LaTeX eine Bibliografie zu erstellen.
 
 * mittels **bibliography** Umgebung
 * mit **bibtex**
-* mit **biber** 
+* mit **biber**
 
-Die ``bibliography`` Umgebung lohnt sich dabei nur für kleine Dokumente, in denen es nicht so sehr auf die exakte Formatierung ankommt. **Bibtex** war lange Zeit der Standard, wenn es um die Literaturverwaltung geht. Die Anpassung der Zitierstile war dabei aber sehr mühselig, da bibtex eine eigene, auf Umgekehrter Polnischer Notation basierende, Programmiersprache nutzt. 
+Die ``bibliography`` Umgebung lohnt sich dabei nur für kleine Dokumente, in denen es nicht so sehr auf die exakte Formatierung ankommt. **Bibtex** war lange Zeit der Standard, wenn es um die Literaturverwaltung geht. Die Anpassung der Zitierstile war dabei aber sehr mühselig, da bibtex eine eigene, auf Umgekehrter Polnischer Notation basierende, Programmiersprache nutzt.
 
 ``Biber`` ist der aktuelle Standard, daher soll in diesem Kapitel der Fokus darauf liegen.
 
@@ -37,8 +37,7 @@ Als Parameter gibt man die umgefähre Anzahl der Items an, diese Information nut
 
 ![document-16.png](code/document-16.png)
 
-Im laufenden Text verweist man dann mittels ``\cite{<key>}`` auf die Eintröge. 
-
+Im laufenden Text verweist man dann mittels ``\cite{<key>}`` auf die Eintröge.
 
 ## Literaturverzeichnisse mit ``biber``
 
@@ -74,11 +73,9 @@ In Jabref legt man dann die einzelnen Einträge an und erhält eine Datei im ``b
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
-
 ```
 
 In der TeX-Datei lädt man die notwendigen Pakete:
-
 
 **code/document-17.tex**
 
@@ -131,14 +128,12 @@ Hinweis: Biblatex listet nur diejenigen Einträge in der Bibliografie
 \printbibliography[title={Bücher},type=book]
 ```
 
-
 Um die fertige Bibliografie zu erzeugen, sind dann die folgenden Befehle bzw. Aufrufe notwendig:
 
-* ``pdflatex <NamederDatei>.tex`` 
-* ``biber <NamederDatei>`` 
-* ``pdflatex <NamederDatei>.tex`` 
+* ``pdflatex <NamederDatei>.tex``
+* ``biber <NamederDatei>``
+* ``pdflatex <NamederDatei>.tex``
 
 ![document-17.png](code/document-17.png)
-
 
 Weiter geht es im [nächsten Kapitel](Kapitel9.md) mit Präsentationen in LaTeX.

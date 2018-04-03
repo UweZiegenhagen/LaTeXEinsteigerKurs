@@ -49,6 +49,8 @@ Hallo Welt
 \end{document}
 ```
 
+![document-04.png](./code/document-04.png)
+
 `scrartcl` erzeugt keine abgesetzte Titelseite, `scrbook` und `scrreprt` schon. Probiert das mal aus! Neben `\tableofcontents` für das Inhaltsverzeichnis gibt es noch `\listoffigures` für Abbildungen und `\listoftables` für Tabellen. Dazu aber später mehr.
 
 Weiter geht es im [nächsten Kapitel](Kapitel4.md) mit Aufzählungen und Textauszeichnungen.

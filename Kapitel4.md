@@ -6,7 +6,7 @@
 
 Schauen wir uns in diesem Kapitel einmal an, wie man verschiedene Aufzählungen setzt.
 
-Das folgende Beispiel zeigt, wie man die Standard-Aufzählungen in LaTeX nutzen kann. 
+Das folgende Beispiel zeigt, wie man die Standard-Aufzählungen in LaTeX nutzen kann.
 
 **document-05.tex**
 
@@ -20,27 +20,27 @@ Das folgende Beispiel zeigt, wie man die Standard-Aufzählungen in LaTeX nutzen 
 \begin{document}
 
 \begin{itemize}
-	\item Ich bin
-	\item eine einfache
-	\item Aufzählung
+    \item Ich bin
+    \item eine einfache
+    \item Aufzählung
 \end{itemize}
 
 \begin{enumerate}
-	\item Ich bin
-	\item eine nummerierte
-	\item Aufzählung
+    \item Ich bin
+    \item eine nummerierte
+    \item Aufzählung
 \end{enumerate}
 
 \begin{description}
-\item[Rosen] sind Blumen
-\item[Affen] sind Tiere
-\item[Mars] ist ein Planet
+    \item[Rosen] sind Blumen
+    \item[Affen] sind Tiere
+    \item[Mars] ist ein Planet
 \end{description}
 
 \end{document}
 ```
 
-![document-05.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-05.png)
+![document-05.png](./code/document-05.png)
 
 Man kann die Umgebungen auch verschachteln, siehe dazu das folgende Beispiel:
 
@@ -56,33 +56,33 @@ Man kann die Umgebungen auch verschachteln, siehe dazu das folgende Beispiel:
 \begin{document}
 
 \begin{itemize}
-	\item Ich bin
-	\begin{itemize}
-		\item Ich bin
-		\item eine einfache
-		\item Aufzählung
+    \item Ich bin
+    \begin{itemize}
+        \item Ich bin
+        \item eine einfache
+        \item Aufzählung
     \end{itemize}
 
-	\item eine einfache
-	\begin{itemize}
-		\item Ich bin
-		\item eine einfache
-		\item Aufzählung
-	\end{itemize}	
+    \item eine einfache
+    \begin{itemize}
+        \item Ich bin
+        \item eine einfache
+        \item Aufzählung
+    \end{itemize}
 
-	\item Aufzählung
-	\begin{itemize}
-		\item Ich bin
-		\item eine einfache
-		\item Aufzählung
-	\end{itemize}
+    \item Aufzählung
+    \begin{itemize}
+        \item Ich bin
+        \item eine einfache
+        \item Aufzählung
+    \end{itemize}
 
 \end{itemize}
 
 \end{document}
 ```
 
-![document-06.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-06.png)
+![document-06.png](./code/document-06.png)
 
 ## Textauszeichnung
 
@@ -92,7 +92,7 @@ Für die Auszeichnung von Texten gibt es die folgenden Befehle:
 * `\textit{Text}` für kursiv (italic)
 * `\textsl{Text}` für geneigt (slanted)
 
-Je nachdem, welche Schnitte die genutzte Schriftart unterstützt, sind auch entsprechende Kombinationen dieser Befehle nutzbar.
+Je nachdem, welche Schrift-Schnitte die genutzte Schriftart unterstützt, sind auch entsprechende Kombinationen dieser Befehle nutzbar.
 
 **document-07.tex**
 
@@ -116,9 +116,8 @@ Dies ist ein \textbf{\textit{fett-kursives}} Wort.
 \end{document}
 ```
 
-![document-07.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-07.png)
+![document-07.png](./code/document-07.png)
 
-Für Unterstreichungen gilt: sie sind böse und sollten nicht genutzt werden, schon gar nicht im Zusammenhang mit Überschriften! Mehr dazu unter [http://www.typovia.at/index.php/typografie/grundlagen/goldene-regel-der-typografie](http://www.typovia.at/index.php/typografie/grundlagen/goldene-regel-der-typografie)
-
+Für Unterstreichungen gilt: sie sind böse und sollten nicht genutzt werden, erst recht nicht im Zusammenhang mit Überschriften! Mehr dazu unter [http://www.typovia.at/index.php/typografie/grundlagen/goldene-regel-der-typografie](http://www.typovia.at/index.php/typografie/grundlagen/goldene-regel-der-typografie)
 
 Weiter geht es im [nächsten Kapitel](Kapitel5.md) mit dem Einbinden von Bildern.

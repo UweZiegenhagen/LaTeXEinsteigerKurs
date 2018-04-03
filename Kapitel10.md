@@ -5,7 +5,7 @@
 ## Allgemeines
 
 * Die ``scrlttr2`` Klasse gehört zum KOMA-Script Paket
-* Sehr mächtige Klasse, lässt sich sehr gut auf eigene Wünsche anpassen
+* ``scrlttr2``ist eine sehr mächtige Klasse, sie lässt sich sehr gut an ein vorgegebenes Corporate Design anpassen
 * Alternative: ``dinbrief``
 
 ## Meine erster Brief
@@ -18,10 +18,10 @@
 \usepackage[T1]{fontenc}
 \usepackage{babel}
 \usepackage{blindtext}
-\usepackage{palatino} 
+\usepackage{palatino}
 
 \begin{document}
- 
+
 \setkomavar{fromname}{Max Mustermann}
 \setkomavar{fromaddress}{Musterstr. 12 \\ 12345~Musterstadt}
 \setkomavar{subject}{Mahnung}
@@ -30,19 +30,17 @@
 
 \begin{letter}{Martina Musterfrau \\ Musterweg 4 \\ 12346~Musterdorf}
 \opening{Sehr geehrte Damen und Herren,}
- 
+
 \blindtext[1]
 
 \closing{Mit freundlichen Grüßen,}
 \encl{Dokument 1 \\ Dokument 2}
 \end{letter}
- 
+
 \end{document}
 ```
 
 ![brief-01.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/brief-01.png)
-
-
 
 ## Auslagerung von Stammdaten
 
@@ -56,17 +54,17 @@ Stammdaten wie Absender und Absenderadresse sind statisch und ändern sich nur s
 \usepackage[T1]{fontenc}
 \usepackage{babel}
 \usepackage{blindtext}
-\usepackage{palatino} 
+\usepackage{palatino}
 
 \begin{document}
- 
+
 \setkomavar{subject}{Mahnung}
 \setkomavar{myref}{2017-xyz}
 \setkomavar{yourref}{08.09.2017}
 
 \begin{letter}{Martina Musterfrau \\ Musterweg 4 \\ 12346~Musterdorf}
 \opening{Sehr geehrte Damen und Herren,}
- 
+
 \blindtext[1]
 
 \closing{Mit freundlichen Grüßen,}
@@ -75,8 +73,6 @@ Stammdaten wie Absender und Absenderadresse sind statisch und ändern sich nur s
  
 \end{document}
 ```
-
-
 
 Die passende ``max.lco`` Datei sieht so aus:
 
@@ -88,8 +84,4 @@ Die passende ``max.lco`` Datei sieht so aus:
 
 ```
 
-
-
-
-
-Weiter geht es im [nächsten Kapitel](Kapitel8.md) mit 
+Weiter geht es im [nächsten Kapitel](Kapitel11.md) mit

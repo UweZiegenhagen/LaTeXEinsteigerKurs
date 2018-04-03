@@ -94,6 +94,7 @@ Nimm den folgenden Code, speichere ihn in einer Datei mit der Endung .tex und ü
 
 
 **code/document-00.tex**
+
 ```latex
 \documentclass[12pt]{article}
 
@@ -110,7 +111,7 @@ Hallo \LaTeX, ich bin ein \textbf{Text} in fett.
 \end{document}
 ```
 
-![document-00.png](code/document-00.png)
+![document-00.png](./code/document-00.png)
 
 Achtung: Wenn dieses Dokument beim Übersetzen Fehler produziert, dann ist was faul. Such jemanden, der LaTeX-Erfahrung hat oder frage nett in einem LaTeX-Forum.
  

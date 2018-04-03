@@ -4,14 +4,15 @@
 
 ## Allgemeines
 
-* ``beamer`` ist ein sehr mächtiges Paket für die Folienerstellung
+* ``beamer`` ist ein sehr mächtiges Paket für die Erstellung von Präsentation
 * Das Handbuch dazu (``texdoc beamer``) hat knapp 250 Seiten und ist lesenswert nicht nur für die technische Seite
-* Alternative: ``prosper``
+* Eine Alternative ist ``prosper``, persönlich gebe ich aber Beamer den Vorzug
 
 ## Meine erste Präsentation
 
 * Als Dokumentenklasse nutzt man ``beamer``
 * Autor und Titel werden wie üblich definiert, die Titelfolie setzt man auch mit ``\maketitle``
+* Beamer stellt auch Befehle wie ``\subtitle`` und ```\institute`` für die Titelfolie bereit
 * Die einzelnen Folien werden innerhalb von ``frame`` Umgebungen gesetzt.
 * Übliche Umgebungen für Aufzählungen und Bullet-Listen gehen auch, sogar verschachtelt.
 
@@ -40,7 +41,6 @@
 \tableofcontents
 
 \end{frame}
- 
 
 \section{Einleitung}
 
@@ -51,8 +51,8 @@
 \begin{itemize}
 \item Hallo
 \item das
-\item ist 
-\item eine 
+\item ist
+\item eine
 \item Item-Liste
 \end{itemize}
 \end{frame}
@@ -76,19 +76,19 @@
 \end{document}
 ```
 
-![beamer-01-0.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-01-0.png)
+![beamer-01-0.png](./code/Beamer-01-0.png)
 
-![beamer-01-1.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-01-1.png)
+![beamer-01-1.png](./code/Beamer-01-1.png)
 
-![beamer-01-2.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-01-2.png)
+![beamer-01-2.png](./code/Beamer-01-2.png)
 
-![beamer-01-3.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-01-3.png)
+![beamer-01-3.png](./code/Beamer-01-3.png)
 
-## Designs setzen
+## Design anpassen
 
 Mit nur zwei Befehlen lassen sich das generelle Design und das Farbdesign anpassen:
 
-* ``\usetheme{Warsaw}`` für das Design
+* ``\usetheme{Warsaw}`` für das allgemeine Design
 * ``\usecolortheme{wolverine}`` für das Farb-Design
 
 Das folgende Beispiel setzt diese um.
@@ -157,14 +157,13 @@ Das folgende Beispiel setzt diese um.
 \end{document}
 ```
 
-![beamer-02-0.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-02-0.png)
+![beamer-02-0.png](./code/Beamer-02-0.png)
 
-![beamer-02-1.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-02-1.png)
+![beamer-02-1.png](./code/Beamer-02-1.png)
 
-![beamer-02-2.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-02-2.png)
+![beamer-02-2.png](./code/Beamer-02-2.png)
 
-![beamer-02-3.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-02-3.png)
-
+![beamer-02-3.png](./code/Beamer-02-3.png)
 
 ## Text-Animationen
 
@@ -205,24 +204,22 @@ Mit wenig Aufwand lassen sich auch Bullet-Points erstellen, die erst nach und na
 \begin{itemize}[<+->]
 \item  Hallo
 \item  das
-\item  ist 
-\item  eine 
+\item  ist
+\item  eine
 \item  Item-Liste
 \end{itemize}
 \end{frame}
 
-
-
 \end{document}
 ```
 
-![beamer-032-0.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-03-0.png)
+![beamer-032-0.png](./code/Beamer-03-0.png)
 
-![beamer-03-1.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-03-1.png)
+![beamer-03-1.png](./code/Beamer-03-1.png)
 
-![beamer-03-2.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-03-2.png)
+![beamer-03-2.png](./code/Beamer-03-2.png)
 
-![beamer-03-3.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/Beamer-03-3.png)
+![beamer-03-3.png](./code/Beamer-03-3.png)
 
 
 ## Mehr
@@ -230,8 +227,5 @@ Mit wenig Aufwand lassen sich auch Bullet-Points erstellen, die erst nach und na
 Wie oben erwähnt lässt sich mit Beamer noch sehr viel mehr anstellen, als es in diesem Kapitel beschrieben werden kann.
 
 Ein guter Überblick findet sich in [https://en.wikibooks.org/wiki/LaTeX/Presentations#Animations](https://en.wikibooks.org/wiki/LaTeX/Presentations#Animations).
-
-
-
 
 Weiter geht es im [nächsten Kapitel](Kapitel10.md) mit der Erstellung von Briefen.

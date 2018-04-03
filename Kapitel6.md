@@ -11,10 +11,10 @@
 
 * Für Tabellen nutzt man die `tabular` Umgebung
 * Es gibt vier grundsätzliche Spaltentypen:
-	* **l** für linksbündig
-	* **r** für rechtsbündig
-	* **c** für zentriert
-	* **p{Breite}** für eine Spalte mit _n_ Zentimetern Breite, die automatisch umgebrochen wird
+    * **l** für linksbündig
+    * **r** für rechtsbündig
+    * **c** für zentriert
+    * **p{Breite}** für eine Spalte mit _n_ Zentimetern Breite, die automatisch umgebrochen wird
 * Zeilen beendet man mit `\\`
 * Zellen trennt man voneinander mit `&`
 * * Vertikale Linien könnte man mit `|` zwischen den Spalten setzen, aber vertikale Linien sind typografisch böse und schlecht, sollten daher nicht eingesetzt werden.
@@ -41,7 +41,7 @@ links & rechts & zentrierte Spalte & linksbündig mit Umbruch \\ \hline
 \end{document}
 ```
 
-![document-11.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-11.png)
+![document-11.png](./code/document-11.png)
 
 ## Float-Tabellen
 
@@ -82,11 +82,11 @@ Siehe Tabelle \ref{tab:ersteTabelle} auf Seite \pageref{tab:ersteTabelle}.
 \end{document}
 ```
 
-![document-12.png](https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs/blob/master/code/document-12.png)
+![document-12.png](./code/document-12.png)
 
 ## Nicht-gleitende Tabellen im Tabellenverzeichnis
 
-Wie bei Abbildungen gibt es auch den Trick, nicht gleitende Tabellen, in das Inhaltsverzeichnis zu bekommen. Dieser besteht darin, den Befehl `\captionof` zu nutzen, der die Gleitumgebung umgeht. 
+Wie bei Abbildungen gibt es auch den Trick, nicht gleitende Tabellen, in das Inhaltsverzeichnis zu bekommen. Dieser besteht darin, den Befehl `\captionof` zu nutzen, der die Gleitumgebung umgeht.
 
 Hinweis: bei Verwendung einer KOMA-Script-Klasse (was ich jedem nur empfehlen kann) oder des `caption` Pakets wird das Paket `capt-of` nicht benötigt, da diese die Anweisung `\captionof` bereits intern selbst zur Verfügung stellen. 
 
