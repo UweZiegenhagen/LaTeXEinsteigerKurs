@@ -1,6 +1,6 @@
 [Letztes Kapitel](Kapitel7.md)
 
-# Kapitel 8: Literaturverzeichnisse mit ``biblatex``
+# Kapitel 8: Literaturverzeichnisse
 
 ## Allgemeines
 
@@ -10,9 +10,9 @@ Es gibt verschiedene Möglichkeiten, in LaTeX eine Bibliografie zu erstellen.
 * mit **bibtex**
 * mit **biber**
 
-Die ``bibliography`` Umgebung lohnt sich dabei nur für kleine Dokumente, in denen es nicht so sehr auf die exakte Formatierung ankommt. **Bibtex** war lange Zeit der Standard, wenn es um die Literaturverwaltung geht. Die Anpassung der Zitierstile war dabei aber sehr mühselig, da bibtex eine eigene, auf Umgekehrter Polnischer Notation basierende, Programmiersprache nutzt.
+Die ``bibliography`` Umgebung lohnt sich dabei nur für kleine Dokumente, in denen nur wenige Literaturverweise vorkommen. **Bibtex** war sehr lange Zeit der Standard, wenn es um die Literaturverwaltung geht. Die Anpassung der Zitierstile war dabei aber sehr mühselig, da bibtex eine eigene, auf Umgekehrter Polnischer Notation basierende, Programmiersprache nutzt.
 
-``Biber`` ist der aktuelle Standard, daher soll in diesem Kapitel der Fokus darauf liegen.
+``Biber`` ist der aktuelle Standard, daher soll in diesem Kapitel der Fokus darauf liegen, vorher betrachten wir jedoch die ``bibliography`` Umgebung:
 
 ## Die ``bibliography`` Umgebung
 
