@@ -11,6 +11,7 @@
 * [Kapitel 9: Präsentationen mit dem ``beamer`` Paket](Kapitel9.md)
 * [Kapitel 10: Briefe setzen mit ``scrlttr2``](Kapitel10.md)
 * Kapitel 11: Zeichnungen in LaTeX erstellen
+* Kapitel 12: Einheitensatz mit ``siunitx``
 
 # Kapitel 1: Einleitung
 
