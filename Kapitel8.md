@@ -37,7 +37,7 @@ Als Parameter gibt man die umgefähre Anzahl der Items an, diese Information nut
 
 ![document-16.png](code/document-16.png)
 
-Im laufenden Text verweist man dann mittels ``\cite{<key>}`` auf die Eintröge.
+Im laufenden Text verweist man dann mittels ``\cite{<key>}`` auf die Einträge.
 
 ## Literaturverzeichnisse mit ``biber``
 
