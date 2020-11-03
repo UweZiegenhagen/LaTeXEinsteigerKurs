@@ -1,4 +1,4 @@
-[Letztes Kapitel](Kapitel6.md)
+[Letztes Kapitel](Kapitel9.md)
 
 # Kapitel 10: Briefe schreiben mit ``scrlttr2``
 
