@@ -1,19 +1,19 @@
 [Letztes Kapitel](Kapitel11.md)
 
-# Einheiten setzen mit ``siunitx``
+# Einheiten setzen mit dem ``siunitx`` Paket
 
 ## Allgemeines
 
-* Für die Formatierung von physikalischen Einheiten gibt es genaue Vorgaben, Einheiten werden beispielsweise aufrecht gesetzt.
-* Eine Darstellung einer physikalischen Größe in LaTeX beispielsweise als \(10 \frac{m}{s^2}\) ist daher falsch.
-* Es gibt mit ``siunitx`` ein exzellentes LaTeX-Paket, das die Formatierung übernimmt. 
+* FÃ¼r die Formatierung von physikalischen Einheiten gibt es genaue Vorgaben, Einheiten werden beispielsweise aufrecht gesetzt.
+* Eine Darstellung einer physikalischen GrÃ¶ÃŸe in LaTeX beispielsweise als \(10 \frac{m}{s^2}\) ist daher falsch.
+* Es gibt mit ``siunitx`` ein exzellentes LaTeX-Paket, das die Formatierung Ã¼bernimmt. 
 * Die Dokumentation ist sehr gut und leicht mittels ``texdoc siunitx`` aufrufbar, daher an dieser Stelle nur die wesentlichen Befehle.
 * Hinweis: Komma , und Punkt . werden vom siunitx-Paket als Dezimaltrenner gleich behandelt.
 
 
 ## Winkel 
 
-Für Winkel bietet das Paket den ``\ang{}`` Befehl.
+FÃ¼r Winkel bietet das Paket den ``\ang{}`` Befehl.
 
 ```latex
 \documentclass[12pt,ngerman]{scrartcl}
@@ -87,7 +87,7 @@ Einheiten ohne Zahlen werden mit dem ``\si{}`` Befehl ausgezeichnet.
 
 ## Zahlen mit Einheiten
 
-Für den Satz von Einheiten mit Zahlen gibt es den  ``\SI{}`` Befehl:
+FÃ¼r den Satz von Einheiten mit Zahlen gibt es den  ``\SI{}`` Befehl:
 
 ```latex
 \documentclass[12pt,ngerman]{scrartcl}
@@ -106,7 +106,7 @@ Für den Satz von Einheiten mit Zahlen gibt es den  ``\SI{}`` Befehl:
 
 ## Listen von Zahlen und Einheiten
 
-Für den konsistenten Satz von Listen von Zahlen/Einheiten gibt es auch verschiedene Befehle:
+FÃ¼r den konsistenten Satz von Listen von Zahlen/Einheiten gibt es auch verschiedene Befehle:
 
 
 ```latex
@@ -133,7 +133,7 @@ Für den konsistenten Satz von Listen von Zahlen/Einheiten gibt es auch verschied
 
 ## Tabellensatz 
 
-Für den Satz von Tabellen schließlich stellt das ``siunitx`` Paket noch einen speziellen Spaltentyp ``S`` bereit, der die übergebenen Zahlen am Dezimalzeichen ausrichtet.
+FÃ¼r den Satz von Tabellen schlieÃŸlich stellt das ``siunitx`` Paket noch einen speziellen Spaltentyp ``S`` bereit, der die Ã¼bergebenen Zahlen am Dezimalzeichen ausrichtet.
 
 ```latex
 \documentclass[12pt,ngerman]{scrartcl}
