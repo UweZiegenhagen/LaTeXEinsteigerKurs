@@ -20,13 +20,13 @@ Es gibt mehr als einen Weg, ein TeX-Dokument zu übersetzen. Im ersten Kapitel h
 
 * **pdflatex**: die schnellste Engine, sehr ausgereift. Kann aber nicht mit OpenType-Fonts umgehen, die Integration von Schriften ist sehr komplex und wird daher keinem Anfänger empfohlen
 * **xelatex**: kann mit den Systemschriften umgehen, ist aber AFAIK nicht mehr aktiv in der Entwicklung
-* **lualatex**: aktiv in der Entwicklung, die langsamste der Engines. Wie xelatex kann luaLaTeX mit Systemfonts im OTF-Format umgehen. Ein Hauptvorteil ist die integrierte Lua-Engine, die vieles in der Arbeit mit dem TeX-Kern leichter macht.
+* **lualatex**: aktiv in der Entwicklung, die langsamste der Engines. Wie xelatex kann luaLaTeX mit Systemfonts im OTF-Format umgehen. Ein Hauptvorteil ist die integrierte Lua-Engine, die vieles in der Arbeit mit dem TeX-Kern leichter macht. Siehe dazu auch [Kapitel 14](Kapitel14.md).
 
-Hinweis: alle drei gibt es auch ohne das "la" im Namen, also als `pdftex`, `xetex` und `luatex`. Diese drei Varianten verstehen nur pures TeX, mit LaTeX können sie nichts anfangen und werfen schon beim "\documentclass{}" Fehlermeldungen. Die Arbeit mit TeX ist noch ein wenig `komischer` als die Arbeit mit LaTeX. Ich empfehle daher, mit LaTeX anzufangen.
+Hinweis: alle drei Programme gibt es auch ohne das "la" im Namen, also als `pdftex`, `xetex` und `luatex`. Diese drei Programme verstehen nur pures TeX, mit LaTeX können sie nichts anfangen und werfen schon beim "\documentclass{}" Fehlermeldungen. Die Arbeit mit TeX ist noch ein wenig `komischer` als die Arbeit mit LaTeX. Ich empfehle daher, mit LaTeX anzufangen.
 
 Welche TeX-Engine solltet ihr nehmen? Hängt davon ab, aber mit `pdflatex` macht man als Anfänger nichts falsch. Wenn man Systemschriften nutzen möchte oder muss, kommt man um xelatex/lualatex üblicherweise nicht herum, wenn es um weitergehende Programmierung geht, ist sicherlich `lualatex` das Mittel der Wahl.
 
-Da dies hier ein Anfängertutorial sein soll, werden wir uns im folgenden auf `pdflatex` konzentrieren. Gegebenenfalls werde ich wichtige Punkte erwähnen, die in xelatex/lualatex beachtenswert sind.
+Da dies hier ein Anfängertutorial sein soll, werden wir uns im folgenden auf `pdflatex` konzentrieren. 
 
 ## Unser erstes 'richtiges' Dokument
 
@@ -48,7 +48,7 @@ Hallo Welt!
 
 ![document-01.png](./code/document-01.png)
 
-Als nächstes teilen wir LaTeX mit, dass unsere Datei in UTF-8 kodiert ist, wir mit westeuropäischen Schriften arbeiten und deutsche Silbentrennung haben möchten.
+Als nächstes teilen wir LaTeX mit, dass unsere Datei in UTF-8 kodiert ist, wir mit westeuropäischen Schriften arbeiten und die deutsche Silbentrennung haben möchten. 
 
 **document-02.tex**
 
@@ -70,7 +70,7 @@ Hallo Welt!
 
 Dies ist das Grundgerüst für jedes `pdflatex`-Dokument, diese paar Zeilen kann man sich merken oder abspeichern. 
 
-`babel` sorgt nicht nur für die richtige Silbentrennung, es deutscht auch das Datum ein und die Überschriften für die verschiedenen Inhaltsverzeichnisse.
+`babel` sorgt dabei nicht nur für die richtige Silbentrennung, es deutscht auch das Datum ein und die Überschriften für die verschiedenen Verzeichnisse wie Inhalts- oder Abbildungsverzeichnis.
 
 Geben wir dem Dokument als nächstes den Autor und Titel mit und lassen diesen Titel dann mit dem Befehl `\maketitle` setzen:
 
@@ -96,7 +96,7 @@ Hallo Welt!
 
 ![document-03.png](./code/document-03.png)
 
-Aufgabe: Ersetzt mal testweise die `scrartcl` Dokumentenklasse durch `scrreprt` oder `scrbook`! Was verändert sich?
+Aufgabe: Ersetzt doch einmal testweise die `scrartcl` Dokumentenklasse durch `scrreprt` oder `scrbook`! Was verändert sich?
 
 Ein Hinweis zur Titelseite: individuelle Titelseiten lassen sich mit der `titlepage`-Umgebung auch erstellen. Das ist aber recht komplex und wird daher -- wenn überhaupt -- erst in einem späteren Kapitel behandelt.
 

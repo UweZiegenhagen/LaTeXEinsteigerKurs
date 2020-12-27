@@ -12,13 +12,14 @@
 * [Kapitel 10: Briefe setzen mit ``scrlttr2``](Kapitel10.md)
 * Kapitel 11: Zeichnungen in LaTeX erstellen
 * [Kapitel 12: Einheitensatz mit ``siunitx``](Kapitel12.md)
-* Kapitel 13: Längere Dokumente schreiben
+* [Kapitel 13: Längere Dokumente schreiben](Kapitel13.md)
+* [Kapitel 14: Von ``pdflatex`` zu ``lualatex``](Kapitel14.md)
 
 # Kapitel 1: Einleitung
 
-Jedes Jahr halte ich einen oder mehrere Einsteigerkurse für LaTeX. In diesem git-Repository sammle ich Beispiele, die mit steigender Komplexität zeigen sollen, wie man -- zumindest aus meiner Sicht -- am einfachsten mit LaTeX beginnt. 
+Jedes Jahr halte ich einen oder mehrere Einsteigerkurse für LaTeX. In diesem git-Repository sammele ich Materialien für einen mehrtägigen LaTeX-Kurs, die ich in den Kursen benutze.
 
-Dieser Kurs beinhaltet Materialien für einen oder zwei Tage und setzt vor allem auf Standard-LaTeX. Wo es mir sinnvoll erscheint, erwähne ich aber wichtige Zusatzpakete und stelle entsprechende Beispiele bereit.
+Grundsätzlich nutze ich für den Kurs ``pdflatex``, in Kapitel 14 gibt es jedoch auch einen kurzen Überblick zu ``lualatex``.
 
 Fehlermeldungen und Verbesserungsvorschläge werden gern angenommen.
 
@@ -49,7 +50,7 @@ Quelle: "A plain TeX Primer" von Malcolm Clark
 
 Microsoft Word hat in den letzten Jahren qualitativ zugelegt, auch LibreOffice/OpenOffice sind für viele Anwendungszwecke schon gut benutzbar. In diesen Programmen ist es aber immer noch recht einfach, etwas zu produzieren, was -- nach typografischen und damit ästhetischen Gesichtspunkten -- schlecht aussieht und schwer lesbar ist. LaTeX im Gegensatz dazu macht es dem Nutzer üblicherweise schwer, richtig typografischen Mist zu produzieren.
 
-LaTeX ist auch dazu gemacht, längere Dokumente effizient zu produzieren, wobei man sagen kann: längere Dokumente haben mehr als 50 Seiten. Die Fähigkeiten von LaTeX, Textsatz effizient zu gestalten, helfen einem dann maßgeblich, Zeit zu sparen.
+LaTeX ist auch dazu gemacht, längere Dokumente effizient zu produzieren, wobei man sagen kann: "längere Dokumente" bedeutet: mehr als 50 Seiten. Die Fähigkeiten von LaTeX, Textsatz effizient zu gestalten, helfen einem dann maßgeblich, Zeit zu sparen.
 
 Hier einige Beispiele aus Projekten, an denen ich TeXnisch beteiligt war:
 
@@ -60,23 +61,25 @@ Ich nehme LaTeX für alle Dokumente, die ordentlich aussehen sollen, auch und in
 
 ## Bezug
 
-* Heute gibt es noch zwei TeX-Distributionen, die erwähnenswert sind:
-	* MikTeX: nur für Windows
-	* TeX Live (mit MacTeX): für alle möglichen Betriebssysteme
+* Heute gibt es noch zwei TeX-Distributionen, die erwähnenswert sind:  MikTeX und TeX Live. Beide sind für mindestens Windows, Linux und Mac OS X erhältlich.
 
-Persönlich nutze ich TeX Live, da ich damit _eine_ einheitliche Umgebung für alle meine Rechner bekomme. Der Fokus dieses Kurses liegt daher auch auf TeX Live.
+Persönlich nutze ich TeX Live, da ich damit einheitliche Umgebung für alle meine Rechner bekomme, vom Windows PC bis hin zum Raspberry Pi, außerdem betreue ich auch die deutsche TeX Live Installationsanleitung.
+
+Der Fokus dieses Kurses liegt daher auch auf TeX Live.
 
 Man erhält TeX Live:
 
 * kostenlos per Download von [www.tug.org/texlive/acquire-netinstall.html](http://www.tug.org/texlive/acquire-netinstall.html)
 * auf DVD im Rahmen der Mitgliedschaft bei Dante e.V., der deutschsprachigen Anwendervereinigung TeX, die viele TeX-Aktivitäten fördert
-* auf DVD bei Lehmanns Buchhandlung
+* auf DVD bei der Lehmanns Buchhandlung
 
 Für alles weitere nehmen wir an, dass eine LaTeX-Installation erfolgt ist, alternativ kann man auch bei ShareLaTeX oder Overleaf die Beispiele online ausprobieren.
 
 ## Editoren
 
-Unter Windows und Mac OS X enthält TeX Live TeXworks, einen aus meiner Sicht sehr guten Editor. Ich nutze ihn zusammen mit in Autohotkey erstellten Tastatur-Shortcuts, mehr dazu in meinem Blog. Man kann aber jeden anderen Editor nehmen, mit speziellen TeX-Editoren ist man aber schneller und es ist ein wenig komfortabler. Die einzig sinnvolle Bedingung ist aber, dass der Editor UTF-8 Unicode unterstützen sollte, da es sonst insbesondere beim Austausch mit anderen nur zu Problemen führt. Die folgende Liste ist nicht vollständig, die Reihenfolge stellt keine Wertung dar:
+Unter Windows und Mac OS X enthält TeX Live TeXworks, einen aus meiner Sicht sehr guten Editor. Ich nutze ihn zusammen mit in Autohotkey erstellten Tastatur-Shortcuts, mehr dazu in meinem Blog unter uweziegenhagen.de. Man kann grundsätzlich auch jeden anderen Editor nehmen, mit speziellen TeX-Editoren ist man aber oft ein wenig komfortabler unterwegs.
+
+Die einzig sinnvolle Bedingung ist aber, dass der Editor UTF-8 Unicode unterstützen sollte, da es sonst insbesondere beim Austausch mit anderen nur zu Problemen führt. Die folgende Liste ist nicht vollständig, die Reihenfolge stellt keine Wertung dar:
 
 * TeXworks
 * Kile
@@ -93,6 +96,8 @@ Nimm den folgenden Code, speichere ihn in einer Datei mit der Endung .tex und ü
 
 * mit dem entsprechenden Übersetzungsbutton im Editor
 * auf der Kommandozeile mit dem Befehl `pdflatex <dateiname>.tex`
+
+Wenn TeX Live installiert wurde, der `pdflatex` Befehl aber nicht gefunden wurde, dann muss vermutlich die PATH-Variable noch um den Pfad zur `pdflatex.exe` erweitert werden.  
 
 
 **code/document-00.tex**
@@ -119,13 +124,13 @@ Achtung: Wenn dieses Dokument beim Übersetzen Fehler produziert, dann ist was f
  
 Jetzt zur Erklärung, was dieses Dokument macht:
 
-* Die `\documentclass` legt fest, was wir eigentlich schreiben wollen. Jede Dokumentenklasse ist letztlich nichts anderes als eine Vorlage. Und da sich ein kurzer Artikel von fünf Seiten und ein 2000-Seiten-Buch voneinander unterscheiden, gibt es da unterschiedliche.
-* [12pt] ist ein optionaler Parameter und legt die Höhe der Grundschrift fest, also dem Fließtext. Alle weiteren Größen, von Überschriften bis zu den Fußnoten, wird von dieser Schriftgröße abgeleitet
+* Die `\documentclass` legt fest, was wir eigentlich schreiben wollen. Jede Dokumentenklasse ist letztlich nichts anderes als eine Vorlage. Und da sich ein kurzer Artikel von fünf Seiten und ein 2000-Seiten-Buch voneinander unterscheiden, gibt es unterschiedliche Dokumentenklassen.
+* [12pt] ist ein optionaler Parameter und legt die Höhe der Grundschrift fest, also dem Fließtext. Alle weiteren Größen, von Überschriften bis zu den Fußnoten, wird von dieser Schriftgröße abgeleitet.
 * Den Teil vor `\begin{document}` nennt man Präambel. Hier kommen alle Definitionen und ähnliches rein, die das Aussehen unseres Dokuments bestimmen.
-* Die Kombination aus `\begin{<irgendwas>}` und `\end{<irgendwas>}` ist dabei eine _Umgebung_, den Begriff werden wir öfter hören.
+* Die Kombination aus `\begin{<irgendwas>}` und `\end{<irgendwas>}` ist  eine _Umgebung_, den Begriff werden wir öfter hören.
 * `\LaTeX` ist ein _Befehl_, auch dieser Begriff wird öfter fallen.
-* Befehle können Parameter haben, wie zum Beispiel der `\textbf{}` Befehl, der den Text in geschweiften Klammern fett druckt.
+* Befehle können Parameter haben, wie zum Beispiel der `\textbf{}` Befehl, der den Text in geschweiften Klammern fett druckt. Pflichtparameter stehen dabei immer in geschweiften Klammern, optionale Parameter in eckigen Klammern.
 * die folgenden Zeilen definieren eine _itemize_ Umgebung, eine nicht nummerierte Aufzählung mit Bulletpoints.
-* `\end{document}` beendet das Dokument. Alles dahinter wird ignoriert.
+* `\end{document}` beendet das Dokument. Alles dahinter wird vom LaTeX-Compiler ignoriert.
 
 So, weiter geht es in der [nächsten Datei](Kapitel2.md) mit Dokumentenklassen und der Auswahl der passenden LaTeX-Engine.
