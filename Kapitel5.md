@@ -36,7 +36,7 @@ Annahme: Im selben Verzeichnis wie die LaTeX-Datei liegt auch das Bild `hallowel
 
 ## Maße anpassen
 
-Der  `\includegraphics` Befehl hat diverse Optionen zur Transformation der Bilder. Ich nutze persönlich nur die `width`-Option, um die Breite des Bildes anzupassen. Dies kann in absoluten Maßen geschehen oder relativ wie der halben Textbreite. Eine zusätzliche Höhe muss nicht angegeben werden, LaTeX skaliert diese entsprechend des Seitenverhältnisses. Im folgenden Beispiel sind beide Versionen gezeigt, gleichzeitig werden die Bilder zentriert.
+Der  `\includegraphics` Befehl hat diverse Optionen zur Transformation der Bilder. Ich nutze persönlich meist nur die `width`-Option, um die Breite des Bildes anzupassen. Dies kann in absoluten Maßen geschehen oder relativ wie der halben Textbreite. Eine zusätzliche Höhe muss nicht angegeben werden, LaTeX skaliert diese entsprechend des Seitenverhältnisses. Im folgenden Beispiel werden beide Versionen gezeigt, gleichzeitig werden die Bilder zentriert.
 
 **code/document-09.tex**
 

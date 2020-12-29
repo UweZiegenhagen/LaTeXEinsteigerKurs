@@ -17,7 +17,7 @@
     * **p{Breite}** für eine Spalte mit _n_ Zentimetern Breite, die automatisch umgebrochen wird
 * Zeilen beendet man mit `\\`
 * Zellen trennt man voneinander mit `&`
-* * Vertikale Linien könnte man mit `|` zwischen den Spalten setzen, aber vertikale Linien sind typografisch böse und schlecht, sollten daher nicht eingesetzt werden.
+* Vertikale Linien könnte man mit `|` zwischen den Spalten setzen, aber vertikale Linien sind typografisch böse und schlecht, sollten daher nicht eingesetzt werden.
 * Horizontale Linien setzt man mit `\hline`
 
 Hier eine Tabelle _mit_ vertikalen Linien, um mal ein schlechtes Beispiel zu zeigen

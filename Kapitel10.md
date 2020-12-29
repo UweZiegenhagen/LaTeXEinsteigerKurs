@@ -84,4 +84,4 @@ Die passende ``max.lco`` Datei sieht so aus:
 
 ```
 
-Weiter geht es im [nächsten Kapitel](Kapitel11.md) mit
+Weiter geht es im [nächsten Kapitel](Kapitel11.md) mit der Erstellung von Grafiken.

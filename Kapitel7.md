@@ -6,7 +6,7 @@
 
 * Der Satz von mathematischen Formeln ist **die** Vorzeige-Funktion von TeX
 * Sogar Microsoft Word unterstützt in neueren Versionen die LaTeX-Notation für Formeln
-* Eine Übersicht über mehr oder weniger alle Symbole, die sich setzen lassen, findet man unter [http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf](http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf)
+* Eine Übersicht über so ziemlich alle Symbole, die sich setzen lassen, findet man unter [http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf](http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf)
 * bei lokal installiertem TeX Live erreichbar über `texdoc symbols-a4`
 
 ## Meine erste Formel
