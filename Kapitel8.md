@@ -39,7 +39,7 @@ Als Parameter gibt man die umgefähre Anzahl der Items an, diese Information nut
 
 Im laufenden Text verweist man dann mittels ``\cite{<key>}`` auf die Einträge.
 
-## Literaturverzeichnisse mit ``biber``
+## Literaturverzeichnisse mit ``biblatex`` und ``biber``
 
 Hat man viele Literaturreferenzen oder braucht die Referenzen mehr als einmal, so lohnt es sich, auf ``biblatex`` zu setzen. Der Workflow ist komplizierter, am Ende lohnt es sich aber doch.
 
