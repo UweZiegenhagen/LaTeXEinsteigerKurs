@@ -17,19 +17,19 @@
 
 # Kapitel 1: Einleitung
 
-Jedes Jahr halte ich einen oder mehrere Einsteigerkurse für LaTeX. In diesem git-Repository sammele ich Materialien für einen mehrtägigen LaTeX-Kurs, die ich in den Kursen benutze.
+Ich halte gelegentlich LaTeX-Kurse für Einsteiger und Fortgeschrittene. In diesem git-Repository sammele ich Materialien für einen mehrtägigen Einführungskurs.
 
-Grundsätzlich nutze ich für den Kurs ``pdflatex``, in Kapitel 14 gibt es jedoch auch einen kurzen Überblick zu ``lualatex``.
+Grundsätzlich nutze ich für den Kurs ``pdflatex``, da es im Vergleich zu ``lualatex`` deutlich schneller ist, in Kapitel 14 gibt es jedoch auch einen kurzen Überblick zu ``lualatex``.
 
-Fehlermeldungen und Verbesserungsvorschläge werden gern angenommen.
+Fehlermeldungen und Verbesserungsvorschläge werden gern angenommen, am besten dafür ein Issue im Bugtracker einstellen. 
 
 ## Der Name
 
 Quelle: "A plain TeX Primer" von Malcolm Clark
 
-* TeX ist abgeleitet von "Tau Epsilon Chi", der ersten Silbe des griechischen Wortes "tèkhne" (über das letzten 'e' kommt noch ein Querstrich), Basis für Wörter wie "Technologie" oder "Technik"
-* damals in der Bedeutung von "Kunst" oder "Kunstfertigkeit"
-* Aussprache wie "teck" oder "tech" ist richtig, nicht wie in "Latex", dem Baumharz
+* TeX ist abgeleitet von "Tau Epsilon Chi", der ersten Silbe des griechischen Wortes "tèkhne" (über das letzte 'e' kommt noch ein Querstrich), die sprachliche Basis für Wörter wie "Technologie" oder "Technik"
+* wurde damals in der Bedeutung von "Kunst" oder "Kunstfertigkeit" genutzt
+* Aussprache wie "teck" oder "tech" ist richtig, nicht wie in "Latex", dem Baumharz. Donald Knuth selbst hat meines Wissens nach keine Vorgaben zur Aussprache gemacht, die o.g. Aussprachen haben sich aber eingebürgert.
 
 ## Historisches
 
@@ -38,17 +38,17 @@ Quelle: "A plain TeX Primer" von Malcolm Clark
 * Knuth ist bekannt für sein Werk "The Art of Computer Programming" über theoretische Informatik
 * 1973 stand die Neu-Auflage der bisher erschienenen Bände an, Satz-Industrie wechselte zu dieser Zeit von Bleisatz auf Fotosatz
 * Ergebnisse waren für Knuth nicht gut genug
-* ab dem 5. Mai 1977 begann die Entwicklung von TeX
+* Ab dem 5. Mai 1977 begann die Entwicklung von TeX
 
 ### LaTeX
 
 * TeX ist recht "kompliziert" im Umgang, Knuth selbst nutzte diverse Makros für seine Bücher 
 * Leslie Lamport (heute bei Microsoft Research) entwickelte eine Makro-Sammlung, mit denen man TeX leichter bedienen konnte und nannte diese "LaTeX" (gesprochen "La-Tech" oder "Le-Tech", nicht "Latex"). LaTeX ist der gebräuchlichste Weg, um mit TeX zu interagieren. 
-* ConTeXt ist eine Alternative zu LaTeX, der Benutzerkreis ist aber deutlich kleiner als bei LaTeX. Hat man Probleme, so findet sich im LaTeX-Umfeld leichter Hilfe.
+* ConTeXt ist eine Alternative zu LaTeX, der Benutzerkreis ist aber noch deutlich kleiner als bei LaTeX. Hat man Probleme, so findet sich im LaTeX-Umfeld leichter Hilfe.
 
 ## Warum sollte ich LaTeX nutzen?
 
-Microsoft Word hat in den letzten Jahren qualitativ zugelegt, auch LibreOffice/OpenOffice sind für viele Anwendungszwecke schon gut benutzbar. In diesen Programmen ist es aber immer noch recht einfach, etwas zu produzieren, was -- nach typografischen und damit ästhetischen Gesichtspunkten -- schlecht aussieht und schwer lesbar ist. LaTeX im Gegensatz dazu macht es dem Nutzer üblicherweise schwer, richtig typografischen Mist zu produzieren.
+Microsoft Word hat in den letzten Jahren qualitativ zugelegt, auch LibreOffice/OpenOffice sind für die meisten Anwendungszwecke schon gut benutzbar. In diesen Programmen ist es aber immer noch recht einfach, etwas zu produzieren, was -- nach typografischen und damit ästhetischen Gesichtspunkten -- schlecht aussieht und schwer lesbar ist. LaTeX im Gegensatz dazu macht es dem Nutzer üblicherweise schwer, richtig typografischen Mist zu produzieren.
 
 LaTeX ist auch dazu gemacht, längere Dokumente effizient zu produzieren, wobei man sagen kann: "längere Dokumente" bedeutet: mehr als 50 Seiten. Die Fähigkeiten von LaTeX, Textsatz effizient zu gestalten, helfen einem dann maßgeblich, Zeit zu sparen.
 
