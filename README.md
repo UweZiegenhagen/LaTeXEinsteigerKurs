@@ -129,12 +129,12 @@ Achtung: Wenn dieses Dokument beim Übersetzen Fehler produziert, dann ist die I
  
 Jetzt zur Erklärung, was dieses Dokument macht:
 
-* Die `\documentclass` legt fest, was wir eigentlich schreiben wollen. Jede Dokumentenklasse ist letztlich nichts anderes als eine Vorlage. Und da sich ein kurzer Artikel von fünf Seiten und ein 2000-Seiten-Buch voneinander unterscheiden, gibt es unterschiedliche Dokumentenklassen.
-* [12pt] ist ein optionaler Parameter und legt die Höhe der Grundschrift fest, also dem Fließtext. Alle weiteren Größen, von Überschriften bis zu den Fußnoten, wird von dieser Schriftgröße abgeleitet.
+* Die `\documentclass` legt fest, was wir eigentlich schreiben wollen. Jede Dokumentenklasse ist letztlich nichts anderes als eine Vorlage. Und da sich ein kurzer Artikel von zwei Seiten, eine Präsentation und ein 2000-Seiten-Buch im Aussehen stark voneinander unterscheiden, gibt es unterschiedliche Dokumentenklassen.
+* [12pt] ist ein optionaler globaler Parameter und legt die Höhe der Grundschrift fest, also der Schrift, die im Fließtext genutzt wird. Alle weiteren Größen, von Überschriften bis zu den Fußnoten, werden von dieser Schriftgröße abgeleitet. "Global" wird der Parameter genannt, weil er auf der Ebene der Dokumentenklasse definiert wird. Pakete, die wir später laden, können grundsätzlich diese globalen Optionen auswerten.
 * Den Teil vor `\begin{document}` nennt man Präambel. Hier kommen alle Definitionen und ähnliches rein, die das Aussehen unseres Dokuments bestimmen.
 * Die Kombination aus `\begin{<irgendwas>}` und `\end{<irgendwas>}` ist  eine _Umgebung_, den Begriff werden wir öfter hören.
 * `\LaTeX` ist ein _Befehl_, auch dieser Begriff wird öfter fallen.
-* Befehle können Parameter haben, wie zum Beispiel der `\textbf{}` Befehl, der den Text in geschweiften Klammern fett druckt. Pflichtparameter stehen dabei immer in geschweiften Klammern, optionale Parameter in eckigen Klammern.
+* Befehle und Umgebungen können Parameter haben, wie zum Beispiel der `\textbf{}` Befehl, der den Text in geschweiften Klammern fett druckt. Pflichtparameter stehen dabei immer in geschweiften Klammern, optionale Parameter in eckigen Klammern.
 * die folgenden Zeilen definieren eine _itemize_ Umgebung, eine nicht nummerierte Aufzählung mit Bulletpoints.
 * `\end{document}` beendet das Dokument. Alles dahinter wird vom LaTeX-Compiler ignoriert.
 
