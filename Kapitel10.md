@@ -84,4 +84,38 @@ Die passende ``max.lco`` Datei sieht so aus:
 
 ```
 
+## Briefe schreiben mit dem ``scrletter`` Paket
+
+Neben der Nutzung der ``scrlttr2`` Klasse kann man auch die Brief-Funktionen nutzen, indem man in einer KOMA-Klasse das ``scrletter`` Paket lädt. 
+
+**code/**
+
+```latex
+\documentclass[12pt,ngerman]{scrartcl}
+ 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{palatino}
+\usepackage{blindtext}
+\usepackage{scrletter}
+ 
+\setkomavar{fromname}{Max Mustermann}
+\setkomavar{fromemail}{Max@Mustermann.de}
+\setkomavar{fromaddress}{Musterweg 221, 12345 Musterstadt}
+\setkomavar{firstfoot}{\usekomavar{fromemail}}
+ 
+\begin{document}
+\begin{letter}{Maria Mustermann \\ Mustergasse 1 \\ 12346 Musterstadt}
+ 
+\opening{Hallo Maria,}
+ 
+\blindtext[2]
+ 
+\closing{Mit freundlichen Grüßen}
+ 
+\end{letter}
+\end{document}
+```
+
 Weiter geht es im [nächsten Kapitel](Kapitel11.md) mit der Erstellung von Grafiken.
