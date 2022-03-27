@@ -125,4 +125,47 @@ Es gibt einen Trick, um Abbildungen, die nicht gleiten, in das Inhaltsverzeichni
 
 Hinweis: bei Verwendung einer KOMA-Script-Klasse (was ich jedem nur empfehlen kann) oder des `caption` Pakets wird das Paket `capt-of` nicht benötigt, da diese die Anweisung `\captionof` bereits intern selbst zur Verfügung stellen.
 
+## Mehrere Bilder nebeneinander setzen (und referenzieren) 
+
+
+**code/subcaption.tex**
+
+Das folgende Beispiel zeigt, wie man mit dem ``subcaption``-Paket mehrere Bilder nebeneinander setzen und separat referenzieren kann.
+
+```latex
+\documentclass[12pt,ngerman]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\begin{document}
+
+\begin{figure}
+\centering
+\subcaptionbox{Eine Katze \label{cat1}}
+{\includegraphics[width=0.49\textwidth]{Bilder/Katze}}
+\subcaptionbox{Die selbe Katze \label{cat2}}
+{\includegraphics[width=0.49\textwidth]{Bilder/Katze1}}
+%\caption{Zwei Katzenbilder}\label{katzenbilder}
+\subcaptionbox{Eine Katze \label{cat1}}
+{\includegraphics[width=0.49\textwidth]{Bilder/Katze}}
+\subcaptionbox{Die selbe Katze \label{cat2}}
+{\includegraphics[width=0.49\textwidth]{Bilder/Katze1}}
+\caption{Zwei Katzenbilder}\label{katzenbilder}
+\end{figure}
+
+Abbildung \ref{cat1} auf Seite \pageref{katzenbilder}
+
+Abbildung \ref{cat2} auf Seite \pageref{katzenbilder}
+
+Abbildung \ref{katzenbilder} auf Seite \pageref{katzenbilder}
+
+
+\end{document}
+```
+
+
 Weiter geht es im [nächsten Kapitel](Kapitel6.md) mit dem Satz von Tabellen.
