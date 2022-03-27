@@ -64,7 +64,7 @@ Hallo Welt
 ```
 
 
-Hier nun ein ``lualatex``-Beispiel, das die OpenType Schriften von MS Office nutzt. Diese müssen natürlich installiert sein.
+Hier nun ein ``lualatex``-Beispiel, das die OpenType Schriften von MS Office nutzt. Diese müssen natürlich installiert sein. Um die Cambria Math für den mathematischen Satz nutzen zu können, laden wir das ``unicode-math`` Paket.
 
 ```latex
 \documentclass[parskip=half,fontsize=12pt,ngerman]{scrartcl}
@@ -90,7 +90,6 @@ Hier nun ein ``lualatex``-Beispiel, das die OpenType Schriften von MS Office nut
 \]
 
 \texttt{Ich bin ein Satz im Mono Font}
-
 
 \end{document}
 ```
