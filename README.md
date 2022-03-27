@@ -60,6 +60,10 @@ Hier einige Beispiele aus Projekten, an denen ich TeXnisch beteiligt war:
 
 Ich nehme LaTeX für alle Dokumente, die ordentlich aussehen sollen.
 
+## Wann sollte ich bei meiner herkömmlichen Textverarbeitung bleiben?
+
+Nicht in jedem Fall empfehle ich das Lernen von LaTeX. Insbesondere bei studentischen Abschlussarbeiten, die weder lang noch sonderlich komplex sind, rate ich, bei Word oder LibreOffice zu bleiben. Wenn der Studentin oder die Studentin nicht im akademischen Bereich bleiben will, dann ist es oft besser, nicht mit LaTeX noch eine weitere "Baustelle" aufzumachen.
+
 ## Bezug
 
 * Heute gibt es noch zwei TeX-Distributionen, die erwähnenswert sind:  MikTeX und TeX Live. Beide sind für mindestens Windows, Linux und Mac OS X erhältlich.
@@ -70,17 +74,17 @@ Der Fokus dieses Kurses liegt daher auch auf TeX Live.
 
 Man erhält TeX Live:
 
-* kostenlos per Download von [www.tug.org/texlive/acquire-netinstall.html](http://www.tug.org/texlive/acquire-netinstall.html)
-* auf DVD im Rahmen der Mitgliedschaft bei Dante e.V., der deutschsprachigen Anwendervereinigung TeX, die viele TeX-Aktivitäten fördert
+* kostenlos per Download von [www.tug.org/texlive/acquire-netinstall.html](https://www.tug.org/texlive/acquire-netinstall.html)
+* auf DVD im Rahmen der Mitgliedschaft bei [Dante e.V.](https://www.dante.de), der deutschsprachigen Anwendervereinigung TeX, die viele TeX-Aktivitäten fördert und bei der ich auch schon lange Mitglied bin
 * auf DVD bei der Lehmanns Buchhandlung
 
 Für alles weitere nehmen wir an, dass eine lokale LaTeX-Installation erfolgt ist, alternativ kann man auch bei ShareLaTeX oder Overleaf die Beispiele online ausprobieren.
 
 ## Editoren
 
-Unter Windows und Mac OS X enthält TeX Live TeXworks, einen aus meiner Sicht sehr guten Editor. Ich nutze ihn zusammen mit in [https://www.autohotkey.com/](Autohotkey) erstellten Tastatur-Shortcuts, mehr dazu in meinem Blog unter uweziegenhagen.de. Man kann grundsätzlich auch jeden anderen Editor nehmen, mit speziellen TeX-Editoren ist man aber oft ein wenig komfortabler unterwegs.
+Unter Windows und Mac OS X enthält TeX Live TeXworks, einen aus meiner Sicht sehr guten Editor. Ich nutze ihn zusammen mit in [https://www.autohotkey.com/](Autohotkey) erstellten Tastatur-Shortcuts, mehr dazu in meinem Blog unter [uweziegenhagen.de](https://www.uweziegenhagen.de). Man kann grundsätzlich auch jeden anderen Editor nehmen, mit speziellen TeX-Editoren ist man aber oft ein wenig komfortabler unterwegs.
 
-Die einzig sinnvolle Bedingung ist aber, dass der Editor UTF-8 Unicode unterstützen sollte, da es sonst insbesondere beim Austausch mit anderen nur zu Problemen führt. Die folgende Liste ist nicht vollständig, die Reihenfolge stellt keine Wertung dar:
+Die einzig sinnvolle Bedingung ist aber, dass der Editor UTF-8 Unicode unterstützen sollte, da es sonst insbesondere beim Austausch mit Anderen nur zu Problemen führt. Die folgende Liste ist nicht vollständig, die Reihenfolge stellt keine Wertung dar:
 
 * TeXworks
 * Kile
@@ -93,7 +97,7 @@ Die einzig sinnvolle Bedingung ist aber, dass der Editor UTF-8 Unicode unterstü
 
 ## Mein erstes Dokument
 
-Nimm den folgenden Code, speichere ihn in einer Datei mit der Endung .tex und übersetze ihn:
+Nimm den folgenden Code, speichere ihn in einer Datei mit der Endung ``.tex´´ und übersetze ihn:
 
 * mit dem entsprechenden Übersetzungsbutton im Editor
 * auf der Kommandozeile mit dem Befehl `pdflatex <dateiname>.tex`
