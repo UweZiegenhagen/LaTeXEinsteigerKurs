@@ -14,6 +14,7 @@
 * [Kapitel 12: Einheitensatz mit ``siunitx``](Kapitel12.md)
 * [Kapitel 13: Längere Dokumente schreiben](Kapitel13.md)
 * [Kapitel 14: Von ``pdflatex`` zu ``lualatex``](Kapitel14.md)
+* [Kapitel 15: Indizes und Index-Ähnliche Verzeichnisse](Kapitel15.md)
 
 # Kapitel 1: Einleitung
 
