@@ -48,14 +48,16 @@ Hallo Welt!
 
 ![document-01.png](./code/document-01.png)
 
-Als nächstes teilen wir LaTeX mit, dass unsere Datei in UTF-8 kodiert ist, wir mit westeuropäischen Schriften arbeiten und die deutsche Silbentrennung haben möchten. 
+Als nächstes teilen wir LaTeX mit, dass wir mit westeuropäischen Schriften arbeiten und die deutsche Silbentrennung haben möchten. 
+
+Hinweis: die oft gesehene Zeile ``\usepackage[utf8]{inputenc}`` braucht man nicht mehr, UTF-8 ist seit mehreren Jahren Standard-Einstellung.
 
 **document-02.tex**
 
 ```latex
 \documentclass[12pt]{scrartcl}
 
-\usepackage[utf8]{inputenc}
+
 \usepackage[T1]{fontenc}
 \usepackage{babel}
 
