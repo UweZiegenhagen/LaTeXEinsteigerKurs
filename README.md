@@ -39,6 +39,7 @@ Quelle: "A plain TeX Primer" von Malcolm Clark
 * 1973 stand die Neu-Auflage der bisher erschienenen Bände an, die Satz-Industrie wechselte zu dieser Zeit von Bleisatz auf Fotosatz
 * Die Ergebnisse des Satzes waren für Knuth nicht gut genug
 * Ab dem 5. Mai 1977 begann die Entwicklung von TeX
+* Auch Knuth hat nicht auf der grünen Wiese angefangen, damals gab es beispielsweise schon [troff](**https://de.wikipedia.org/wiki/Troff**) und mit [eqn](https://en.wikipedia.org/wiki/Eqn_(software)) sogar einen Formel-Editor
 
 ### LaTeX
 
