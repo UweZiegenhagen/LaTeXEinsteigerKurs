@@ -85,8 +85,9 @@ Das klappt üblicherweise ganz gut, jedoch nicht perfekt. Aus diesem Grund kann 
 * **t** (top), oben auf der Seite
 * **b** (bottom), unten auf der Seite
 * **h** (here), an der Stelle des Befehls
+* **p** (page), auf einer separaten Seite
 
-Wenn LaTeX aber meint, dass an dieser Stelle es nicht passt, dann werden diese Optionen unter Umständen ignoriert. Grundsätzlich ist es aber so, dass eh auf **alle** Grafiken und Tabellen im Text Bezug genommen werden muss, daher kann man damit eigentlich ganz gut leben.
+Wenn LaTeX aber meint, dass an dieser Stelle es nicht passt, dann werden diese Optionen unter Umständen ignoriert. Grundsätzlich ist es aber so, dass eh auf **alle** Grafiken und Tabellen im Text Bezug (mittels \label{} und \ref{}) genommen werden muss, daher kann man damit eigentlich ganz gut leben.
 
 Als nächstes ein vollständiges Beispiel. Der  `label`-Befehl setzt einen Anker an das Bild, auf dieses kann dann mittels `\ref{fig:hallo}` verwiesen werden. Auch hier braucht LaTeX zwei Compiler-Läufe, um a) die Referenzen und b) Einträge im Abbildungsverzeichnis korrekt zu setzen.
 
