@@ -6,15 +6,16 @@
 
 * Tabellen können sehr komplex werden, hier nur die Grundlagen
 * Von Herbert Voß gibt es ein eigenes Buch zu diesem Thema, das ich -- wie alle Bücher aus Lehmanns Dante-Edition -- empfehlen kann.
+* In diesem Kapitel die Grundlagen, in [Kapitel 16](Kapitel16.md) noch einige Erweiterungen
 
 ## Die erste Tabelle
 
 * Für Tabellen nutzt man die `tabular` Umgebung
 * Es gibt vier grundsätzliche Spaltentypen:
-    * **l** für linksbündig
-    * **r** für rechtsbündig
-    * **c** für zentriert
-    * **p{Breite}** für eine Spalte mit _n_ Zentimetern Breite, die automatisch umgebrochen wird
+  * **l** für linksbündig
+  * **r** für rechtsbündig
+  * **c** für zentriert
+  * **p{Breite}** für eine Spalte mit _n_ Zentimetern Breite, die automatisch umgebrochen wird
 * Zeilen beendet man mit `\\`
 * Zellen trennt man voneinander mit `&`
 * Vertikale Linien könnte man mit `|` zwischen den Spalten setzen, aber vertikale Linien sind typografisch böse und schlecht, sollten daher nicht eingesetzt werden.
@@ -88,6 +89,29 @@ Siehe Tabelle \ref{tab:ersteTabelle} auf Seite \pageref{tab:ersteTabelle}.
 
 Wie bei Abbildungen gibt es auch den Trick, nicht gleitende Tabellen, in das Inhaltsverzeichnis zu bekommen. Dieser besteht darin, den Befehl `\captionof` zu nutzen, der die Gleitumgebung umgeht.
 
-Hinweis: bei Verwendung einer KOMA-Script-Klasse (was ich jedem nur empfehlen kann) oder des `caption` Pakets wird das Paket `capt-of` nicht benötigt, da diese die Anweisung `\captionof` bereits intern selbst zur Verfügung stellen. 
+Hinweis: bei Verwendung einer KOMA-Script-Klasse (was ich im deutschsprachigen Raum jedem nur empfehlen kann) oder des `caption` Pakets wird das Paket `capt-of` nicht benötigt, da diese die Anweisung `\captionof` bereits intern selbst zur Verfügung stellen.
 
-Weiter geht es im [nächsten Kapitel](Kapitel7.md) mit dem Satz von mathematischen Formeln.
+```latex
+\documentclass[12pt,ngerman]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+
+\begin{document}
+
+\listoftables
+
+
+\begin{center}
+\captionof{table}[Nicht-fließende Tabelle]{Ich bin eine nicht-fließende Tabelle mit Eintrag im Tabellenverzeichnis}\label{tab:ersteTabelle}
+\begin{tabular}{lrcp{5cm}}
+linksbündig & rechtsbündig & zentriert & linksbündig mit automatischem Umbruch \\
+links & rechts & zentrierte Spalte & linksbündig mit Umbruch \\
+\end{tabular}
+\end{center}
+
+Siehe Tabelle \ref{tab:ersteTabelle} auf Seite \pageref{tab:ersteTabelle}.
+
+\end{document}
+```
+
+Weiter geht es im [nächsten Kapitel](Kapitel7.md) mit dem Satz von mathematischen Formeln. In [Kapitel 16](Kapitel16.md) gibt es noch einige Erweiterungen zum Tabellensatz.
