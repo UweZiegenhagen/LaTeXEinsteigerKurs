@@ -16,6 +16,7 @@
 * [Kapitel 14: Von ``pdflatex`` zu ``lualatex``](Kapitel14.md)
 * [Kapitel 15: Indizes und Index-Ähnliche Verzeichnisse](Kapitel15.md)
 * [Kapitel 16: Mehr zu Tabellen](Kapitel16.md)
+* [Links](Links.md)
 
 # Kapitel 1: Einleitung
 
@@ -36,6 +37,7 @@ Quelle: "A plain TeX Primer" von Malcolm Clark
 ## Historisches
 
 ### TeX
+
 * TeX wurde seit Ende der 1970er vom Stanford-Professor Donald Knuth entwickelt
 * Knuth ist bekannt für sein Werk "The Art of Computer Programming" zur theoretischen Informatik
 * 1973 stand die Neu-Auflage der bisher erschienenen Bände an, die Satz-Industrie wechselte zu dieser Zeit von Bleisatz auf Fotosatz
@@ -45,8 +47,8 @@ Quelle: "A plain TeX Primer" von Malcolm Clark
 
 ### LaTeX
 
-* TeX ist recht "kompliziert" im Umgang, Knuth selbst nutzte diverse Makros für seine Bücher 
-* Leslie Lamport (heute bei Microsoft Research) entwickelte eine Makro-Sammlung, mit denen man TeX leichter bedienen konnte und nannte diese "LaTeX" (gesprochen "La-Tech" oder "Le-Tech", nicht "Latex"). LaTeX ist der gebräuchlichste Weg, um mit TeX zu interagieren. 
+* TeX ist recht "kompliziert" im Umgang, Knuth selbst nutzte diverse Makros für seine Bücher
+* Leslie Lamport (heute bei Microsoft Research) entwickelte eine Makro-Sammlung, mit denen man TeX leichter bedienen konnte und nannte diese "LaTeX" (gesprochen "La-Tech" oder "Le-Tech", nicht "Latex"). LaTeX ist der gebräuchlichste Weg, um mit TeX zu interagieren.
 
 ## Warum sollte ich LaTeX nutzen?
 
@@ -105,7 +107,6 @@ Nimm den folgenden Code, speichere ihn in einer Datei mit der Endung ``.tex´´ 
 
 Wenn TeX Live installiert wurde, der `pdflatex` Befehl aber nicht gefunden wurde, dann muss vermutlich die PATH-Variable noch um den Pfad zur `pdflatex.exe` erweitert werden.  
 
-
 **code/document-00.tex**
 
 ```latex
@@ -120,23 +121,23 @@ Hallo \LaTeX, ich bin ein \textbf{Text} in fett.
  \item eine 
  \item Aufzaehlung
 \end{itemize}
-	
+
 \end{document}
 ```
 
 ![document-00.png](./code/document-00.png)
 
 Achtung: Wenn dieses Dokument beim Übersetzen Fehler produziert, dann ist die Installation fehlerhaft. Such jemanden, der LaTeX-Erfahrung hat oder frage nett in einem LaTeX-Forum.
- 
+
 Jetzt zur Erklärung, was dieses Dokument macht:
 
 * Die `\documentclass` legt fest, was wir eigentlich schreiben wollen. Jede Dokumentenklasse ist letztlich nichts anderes als eine Vorlage. Und da sich ein kurzer Artikel von zwei Seiten, eine Präsentation und ein 2000-Seiten-Buch im Aussehen stark voneinander unterscheiden, gibt es unterschiedliche Dokumentenklassen.
-* [12pt] ist ein optionaler globaler Parameter und legt die Höhe der Grundschrift fest, also der Schrift, die im Fließtext genutzt wird. Alle weiteren Größen, von Überschriften bis zu den Fußnoten, werden von dieser Schriftgröße abgeleitet. "Global" wird der Parameter genannt, weil er auf der Ebene der Dokumentenklasse definiert wird. Pakete, die wir später laden, können grundsätzlich diese globalen Optionen auswerten.
-* Den Teil vor `\begin{document}` nennt man Präambel. Hier kommen alle Definitionen und ähnliches rein, die das Aussehen unseres Dokuments bestimmen.
+* [12pt] ist ein optionaler globaler Parameter und legt die Höhe der Grundschrift fest, also der Schrift, die im Fließtext genutzt wird. Alle weiteren Größen, von Überschriften bis zu den Fußnoten, werden von dieser Schriftgröße abgeleitet. "Global" wird der Parameter genannt, weil er auf der Ebene der Dokumentenklasse definiert wird. Pakete, die wir später laden, können grundsätzlich auch diese globalen Optionen auswerten.
+* Den Teil vor `\begin{document}` nennt man Präambel. Hier kommen alle Definitionen und Ähnliches rein, die das Aussehen unseres Dokuments bestimmen.
 * Die Kombination aus `\begin{<irgendwas>}` und `\end{<irgendwas>}` ist  eine _Umgebung_, den Begriff werden wir öfter hören.
 * `\LaTeX` ist ein _Befehl_, auch dieser Begriff wird öfter fallen.
 * Befehle und Umgebungen können Parameter haben, wie zum Beispiel der `\textbf{}` Befehl, der den Text in geschweiften Klammern fett druckt. Pflichtparameter stehen dabei immer in geschweiften Klammern, optionale Parameter in eckigen Klammern.
-* die folgenden Zeilen definieren eine _itemize_ Umgebung, eine nicht nummerierte Aufzählung mit Bulletpoints.
+* die folgenden Zeilen definieren eine _itemize_ Umgebung, eine unnummerierte Aufzählung mit Bulletpoints.
 * `\end{document}` beendet das Dokument. Alles dahinter wird vom LaTeX-Compiler ignoriert.
 
-So, weiter geht es in der [nächsten Datei](Kapitel2.md) mit Dokumentenklassen und der Auswahl der passenden LaTeX-Engine.
+Weiter geht es in der [nächsten Datei](Kapitel2.md) mit Dokumentenklassen und der Auswahl der passenden LaTeX-Engine.
