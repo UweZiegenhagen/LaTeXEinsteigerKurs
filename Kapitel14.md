@@ -6,7 +6,6 @@
 * Sowohl ``xelatex`` als auch ``lualatex`` unterstützen OpenType-Schriften des Systems
 * ``lualatex`` wird aktiv entwickelt, daher soll der Fokus dieses Abschnitts darauf liegen
 
-
 ## Was muss ich anpassen, wenn ich ``lualatex`` nutzen will
 
 Schauen wir uns das folgende pdflatex-Dokument an:
@@ -97,8 +96,5 @@ Hier nun ein ``lualatex``-Beispiel, das die OpenType Schriften von MS Office nut
 ## Mehrere Schriftfamilien nutzen unter ``lualatex``
 
 Mit wenig Aufwand lassen sich auch verschiedene Schriftfamilien unter lualatex nutzen.
-
-
-
 
 Weiter geht es im [nächsten Kapitel](Kapitel5.md)

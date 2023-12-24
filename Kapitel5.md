@@ -125,8 +125,7 @@ Es gibt einen Trick, um Abbildungen, die nicht gleiten, in das Inhaltsverzeichni
 
 Hinweis: bei Verwendung einer KOMA-Script-Klasse (was ich jedem nur empfehlen kann) oder des `caption` Pakets wird das Paket `capt-of` nicht benötigt, da diese die Anweisung `\captionof` bereits intern selbst zur Verfügung stellen.
 
-## Mehrere Bilder nebeneinander setzen (und referenzieren) 
-
+## Mehrere Bilder nebeneinander setzen (und referenzieren)
 
 **code/subcaption.tex**
 

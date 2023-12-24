@@ -10,7 +10,6 @@
 * Die Dokumentation ist sehr gut und leicht mittels ``texdoc siunitx`` aufrufbar, daher an dieser Stelle nur die wesentlichen Befehle.
 * Hinweis: Komma , und Punkt . werden vom siunitx-Paket als Dezimaltrenner gleich behandelt.
 
-
 ## Winkel 
 
 Für Winkel bietet das Paket den ``\ang{}`` Befehl.

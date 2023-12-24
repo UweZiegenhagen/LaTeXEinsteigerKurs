@@ -2,18 +2,17 @@
 
 # Kapitel 3: Wir strukturieren das Dokument
 
-
 Als nächstes geben wir unserem Dokument Struktur im Sinne von Abschnitten und Unterabschnitten. LaTeX kennt dafür verschiedene Befehle, in der `scrartcl` Dokumentenklasse sind die folgenden verfügbar:
 
 * `\section{}`
 * `\subsection{}`
 * `\subsubsection{}`
 
-Diese drei sind abgesetzt und werden nummeriert. Zusätzlich gibt es noch `\paragraph` und `\subparagraph`, persönlich nutze ich diese jedoch eher selten.
+Diese drei sind vom folgenden Text abgesetzt und werden nummeriert. Zusätzlich gibt es noch `\paragraph` und `\subparagraph`, bei denen es keine Absetzung gibt, persönlich nutze ich diese jedoch eher selten.
 
 `scrreprt` und `scrbook` kennen zusätzlich noch `\chapter{}` für Kapitel, `scrbook` weiterhin noch `\part{}`.
 
-Zusätzlich fügen wir noch den Befehl `\tableofcontents` ein, um ein Inhaltsverzeichnis zu erhalten. 
+Zusätzlich fügen wir noch den Befehl `\tableofcontents` ein, um ein Inhaltsverzeichnis zu erhalten.
 
 Hinweis: Wir müssen das Dokument ab jetzt immer (zumindest immer wenn wir die Sections editieren) zweimal übersetzen! Beim ersten Übersetzen erstellt LaTeX das Inhaltsverzeichnis in einer externen Datei (Dateiname.**toc**), beim zweiten Lauf wird der Inhalt dieser **.toc** Datei dann in das Dokument eingefügt und gesetzt.
 

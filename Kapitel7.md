@@ -1,6 +1,6 @@
 [Letztes Kapitel](Kapitel6.md)
 
-# Kapitel 7: Mathesatz
+# Kapitel 7: Mathematiksatz
 
 ## Allgemeines
 

@@ -4,11 +4,10 @@
 
 Bei längeren Dokumenten ist es recht umständlich, durch den Quellcode zu scrollen. LaTeX hat aber einige Features, die uns die Verwaltung von größeren Projekten erleichtert. 
 
-*  ``\input`` und ``\include``
+* ``\input`` und ``\include``
 *  Arara und andere Build-Tools
 
-##  ``\input`` und ``\include`` 
-
+## ``\input`` und ``\include`` 
 
 Mit dem ``\input`` Befehl kann man Inhalte aus einer Datei in eine andere Datei  einfügen. Der eingefügte Text/Quellcode wird dabei so behandelt, als hätte man ihn direkt in die andere Datei geschrieben.
 
@@ -70,7 +69,6 @@ Schauen wir uns ein Beispiel für die Funktion von ``\input`` und ``\include`` a
 
 Das Hauptdokument ``main.tex`` können wir jetzt übersetzen, alle Kapitel werden eingebunden. Zu jeder Kapiteldatei wird  eine _.aux_ Datei angelegt, in der die Seitenzahl und diverse Zählerstände gespeichert werden. Mittels ``\includeonly`` können wir jetzt die erste Datei aus der Übersetzung aussschließen. Beim Übersetzen von ``main.tex`` wird jetzt nur das zweite Kapitel übersetzt, die Seitenzahl (2) wird aber korrekt angezeigt. ``%!TeX root=main.tex`` sorgt übrigens in TeXworks (und eventuell auch anderen Editoren) dafür, dass man auch aus den einzelnen Kapiteln heraus die gesamte Arbeit kompilieren kann.
 
-
 **main.tex**
 ```latex
 \documentclass[12pt,ngerman]{scrreprt}
@@ -85,7 +83,5 @@ Das Hauptdokument ``main.tex`` können wir jetzt übersetzen, alle Kapitel werde
 ```
 
 ## Arara und andere Build-Tools
-
-
 
 Weiter geht es im [nächsten Kapitel](Kapitel14.md)

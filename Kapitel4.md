@@ -118,6 +118,6 @@ Dies ist ein \textbf{\textit{fett-kursives}} Wort.
 
 ![document-07.png](./code/document-07.png)
 
-Für Unterstreichungen gilt: sie sind böse und sollten nicht genutzt werden, erst recht nicht im Zusammenhang mit Überschriften! Mehr dazu unter [http://www.typovia.at/index.php/typografie/grundlagen/goldene-regel-der-typografie](http://www.typovia.at/index.php/typografie/grundlagen/goldene-regel-der-typografie)
+Für Unterstreichungen gilt: sie sind `böse`` und sollten nicht genutzt werden, erst recht nicht im Zusammenhang mit Überschriften! Mehr dazu unter [http://www.typovia.at/index.php/typografie/grundlagen/goldene-regel-der-typografie](http://www.typovia.at/index.php/typografie/grundlagen/goldene-regel-der-typografie)
 
 Weiter geht es im [nächsten Kapitel](Kapitel5.md) mit dem Einbinden von Bildern.

@@ -4,7 +4,7 @@
 
 ## Allgemeines
 
-Es gibt verschiedene Möglichkeiten, in LaTeX eine Bibliografie zu erstellen. 
+Es gibt verschiedene Möglichkeiten, in LaTeX eine Bibliografie zu erstellen.
 
 * mittels **bibliography** Umgebung
 * mit **bibtex**

@@ -46,7 +46,7 @@ links & rechts & zentrierte Spalte & linksbündig mit Umbruch \\ \hline
 
 ## Float-Tabellen
 
-Wie bei Bildern kann -- oder sollte man -- LaTeX selbst entscheiden lassen, wo die Tabelle am besten hinpasst. Dazu packt man die `tabular`-Umgebung in eine `table` Umgebung. Dann lässt sich auch der normale `\caption{}` Befehl nutzen, der im Gegensatz zu Bildern überhalb der Tabelle gesetzt wird. 
+Wie bei Bildern kann -- oder sollte man -- LaTeX selbst entscheiden lassen, wo die Tabelle am besten hinpasst. Dazu packt man die `tabular`-Umgebung in eine `table` Umgebung. Dann lässt sich auch der normale `\caption{}` Befehl nutzen, der im Gegensatz zu Bildern überhalb der Tabelle gesetzt wird.
 
 Wie bei Bildern kann man der entsprechenden Gleitumgebung noch die Option für die vertikale Ausrichtung mitgeben:
 

@@ -221,7 +221,6 @@ Mit wenig Aufwand lassen sich auch Bullet-Points erstellen, die erst nach und na
 
 ![beamer-03-3.png](./code/Beamer-03-3.png)
 
-
 ## Mehr
 
 Wie oben erwähnt lässt sich mit Beamer noch sehr viel mehr anstellen, als es in diesem Kapitel beschrieben werden kann.

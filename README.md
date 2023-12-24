@@ -22,7 +22,7 @@
 
 Ich halte gelegentlich LaTeX-Kurse für Einsteiger und Fortgeschrittene. In diesem git-Repository sammele ich Materialien für einen mehrtägigen Einführungskurs.
 
-Grundsätzlich nutze ich für den Kurs ``pdflatex``, da es im Vergleich zu ``lualatex`` deutlich schneller ist, in Kapitel 14 gibt es jedoch auch einen kurzen Überblick zu ``lualatex``.
+Grundsätzlich nutze ich für den Kurs ``pdflatex``, da es im Vergleich zu ``lualatex`` deutlich schneller und von den Funktionen her für mich meist vollkommen ausreichend ist, in [Kapitel 14](Kapitel14.md)gibt es jedoch auch eine kurze Einführung  zu ``lualatex``.
 
 Fehlermeldungen und Verbesserungsvorschläge werden gern angenommen, am besten dafür ein Issue im Bugtracker einstellen. 
 
